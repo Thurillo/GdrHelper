@@ -4,9 +4,9 @@ GdrHelper è una web application self-hosted progettata su misura per i Dungeon 
 
 ---
 
-## 🚀 Guida all'Installazione (Debian 13)
+## 🚀 Guida all'Installazione (Debian 13 come root)
 
-Questa guida illustra tutti i passaggi necessari per preparare un server pulito con **Debian 13** e mettere in esecuzione la propria istanza di GdrHelper.
+Questa guida illustra tutti i passaggi necessari per preparare un server pulito con **Debian 13** e mettere in esecuzione la propria istanza di GdrHelper operando con l'**utente root**.
 
 ### 1. Prerequisiti: Aggiornamento Sistema e Tool Base
 
@@ -14,10 +14,10 @@ Accedi al tuo server via SSH (o terminale) ed esegui i seguenti comandi per prep
 
 ```bash
 # Aggiorna i pacchetti di sistema
-sudo apt update && sudo apt upgrade -y
+apt update && apt upgrade -y
 
-# Installa strumenti base (curl, git, build-essential)
-sudo apt install curl git build-essential -y
+# Installa strumenti base (curl, nano, git, build-essential)
+apt install curl nano git build-essential -y
 ```
 
 ### 2. Installazione di Node.js e npm
@@ -26,10 +26,10 @@ L'applicazione è basata su Next.js e richiede Node.js. È consigliata la versio
 
 ```bash
 # Aggiungi il repository NodeSource per la versione LTS (es. Node 20.x o 22.x)
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 
 # Installa Node.js
-sudo apt install nodejs -y
+apt install nodejs -y
 
 # Verifica l'installazione
 node -v
@@ -42,24 +42,27 @@ Prisma (l'ORM utilizzato dalla webapp) necessita di un database PostgreSQL.
 
 ```bash
 # Installa PostgreSQL e i contrib addons
-sudo apt install postgresql postgresql-contrib -y
+apt install postgresql postgresql-contrib -y
 
 # Lancia il servizio ed assicurati che sia abilitato all'avvio
-sudo systemctl start postgresql
-sudo systemctl enable postgresql
+systemctl start postgresql
+systemctl enable postgresql
 
 # Crea un utente e un database per GdrHelper
-sudo -u postgres psql -c "CREATE USER gdr_user WITH PASSWORD 'la_tua_password_sicura';"
-sudo -u postgres psql -c "CREATE DATABASE gdrhelper OWNER gdr_user;"
+su - postgres -c "psql -c \"CREATE USER gdr_user WITH PASSWORD 'la_tua_password_sicura';\""
+su - postgres -c "psql -c \"CREATE DATABASE gdrhelper OWNER gdr_user;\""
 ```
 
 > **Nota:** Ricorda di sostituire `la_tua_password_sicura` con una vera password!
 
 ### 4. Setup e Clonazione dell'Applicazione
 
-Ora recuperiamo i sorgenti di GdrHelper dalla repository GitHub.
+Ora recuperiamo i sorgenti di GdrHelper dalla repository GitHub nella directory root standard per i servizi web:
 
 ```bash
+# Spostati nella root directory /var/www (o se preferisci resta in /root, questa guida la clonerà in /opt/)
+cd /opt
+
 # Clona il repository
 git clone https://github.com/Thurillo/GdrHelper.git
 
@@ -72,10 +75,10 @@ npm install
 
 ### 5. Configurazione delle Variabili d'Ambiente
 
-Dovrai creare un file `.env` che Prisma e NextAuth leggeranno alla partenza.
+Crea un file `.env` che Prisma e NextAuth leggeranno alla partenza:
 
 ```bash
-# Copia il file di esempio se l'autore ne ha fornito uno, oppure crealo:
+# Apri l'editor per creare il file
 nano .env
 ```
 
@@ -87,28 +90,30 @@ Inserisci il seguente contenuto all'interno del tuo file `.env`:
 DATABASE_URL="postgresql://gdr_user:la_tua_password_sicura@localhost:5432/gdrhelper"
 
 # URL di base dove gira l'app (es. http://il-tuo-ip:3000 o il tuo dominio)
-NEXTAUTH_URL="http://localhost:3000"
+NEXTAUTH_URL="http://il_tuo_indirizzo_ip_o_dominio:3000"
 
-# Stringa segreta usata per firmare i token jwt (PUOI GENERARNE UNA CON: `openssl rand -base64 32`)
+# Stringa segreta usata per firmare i token jwt
+# (Puoi farti generare una chiave sul terminale digitando: openssl rand -base64 32)
 NEXTAUTH_SECRET="la_tua_chiave_segreta_generata_casualmente"
 ```
-*(Premi `CTRL+O`, `Invio` per salvare e `CTRL+X` per uscire da nano)*
+
+*(Premi `CTRL+O`, poi `Invio` per salvare e `CTRL+X` per uscire da nano)*
 
 ### 6. Migrazione Schema e Generazione Prisma
 
-Configura la struttura delle tabelle (Models NextAuth, Users, Campaigns, ecc...) eseguendo i file Prisma:
+Configura la struttura delle tabelle (Models di NextAuth, Utenti, Campagne, ecc...) eseguendo i file Prisma:
 
 ```bash
-# Pusha lo schema nel DB creando le tabelle necessarie
+# Pusha lo schema nel DB per creare le tabelle
 npx prisma db push
 
-# (Opzionale, di solito lo fa in automatico) Genera il client Prisma
+# (Opzionale, solitamente eseguito automaticamente) Genera il client Prisma
 npx prisma generate
 ```
 
-### 7. Avvio in Produzione
+### 7. Compilazione e Avvio in Produzione
 
-Per mantenere l'applicazione stabile ed efficiente per i tuoi giocatori, compila i sorgenti con Next.js e usa un PM (Process Manager) come PM2 (oppure Systemd) per eseguirla in background.
+Per mantenere l'applicazione stabile ed efficiente compila i sorgenti con Next.js e usa un Process Manager (PM) come PM2 per eseguirla in background come demone.
 
 ```bash
 # Compila il progetto per produrre la build ottimizzata
@@ -116,44 +121,58 @@ npm run build
 ```
 
 Esegui il server:
-**Metodo 1: Avvio Manuale Semplice**
-```bash
-npm start
-```
 
-**Metodo 2: (Raccomandato) Avvio con PM2**
+**Avvio con PM2 (Raccomandato per server in produzione)**
 ```bash
 # Installa pm2 globalmente
-sudo npm install -g pm2
+npm install -g pm2
 
 # Avvia l'applicazione chiamandola "gdrhelper"
 pm2 start npm --name "gdrhelper" -- start
 
-# Fai in modo che PM2 ricarichi l'app al riavvio del server
+# Crea lo script di autostart per far ripartire pm2 e gdrhelper ad ogni riavvio di Debian
 pm2 startup
 pm2 save
 ```
 
-### 8. Accesso all'Applicazione
-L'applicazione girerà di default sulla porta `3000`. 
-Apri un browser e naviga su `http://indirizzo_ip_del_server:3000`. Verrai ridiretto alla schermata di Login.
+### 8. Gestione Firewall e Accesso all'Applicazione
+
+Debian potrebbe avere `ufw` o le `iptables` attive. Assicurati che la porta 3000 (o 80/443 se monterai Nginx proxy reverse avanti a NodeJS) sia aperta.
+
+```bash
+# Se usi UFW, apri la porta 3000
+apt install ufw -y
+ufw allow 3000/tcp
+ufw allow ssh
+ufw enable
+```
+
+Apri un browser e naviga su `http://indirizzo_ip_del_server:3000`. Verrai ridiretto alla schermata di Login di GdrHelper!
 
 ---
 
-## 🛠 Comandi Utili (Gestione Successiva)
+## 🛠 Comandi Utili per la Manutenzione
 
-- **Aggiornare l'applicazione:**
+Trovandosi nella cartella dell'app (`/opt/GdrHelper`):
+
+- **Aggiornare l'applicazione con un nuovo rilascio GitHub:**
   ```bash
-  cd GdrHelper
+  cd /opt/GdrHelper
   git pull origin main
   npm install
   npm run build
   pm2 restart gdrhelper
   ```
-- **Visualizzare i log (se usi pm2):**
+- **Visualizzare i log del server web backend:**
   ```bash
   pm2 logs gdrhelper
   ```
+- **Accedere al client query del Database Postgres:**
+  ```bash
+  su - postgres -c "psql"
+  # per visualizzare le tabelle: \dt
+  # per uscire: \q
+  ```
 
 ---
-*Progetto MVP sviluppato con Next.js (App Router), Prisma, TailwindCSS v4, Auth.js*
+*Progetto MVP VTT con Next.js App Router (Reattivo SSR), configurazione Prisma ORM, TailwindCSS v4 Custom Style, sistema modulare di Autenticazione Auth.js e integrazione DB PostgreSQL.*
