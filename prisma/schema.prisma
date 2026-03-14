@@ -1,0 +1,331 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// -----------------------------------------------------------------------------
+// USER & AUTHENTICATION
+// -----------------------------------------------------------------------------
+enum Role {
+  USER
+  ADMIN
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  role          Role      @default(USER)
+  
+  // Relations
+  campaigns       Campaign[]       @relation("CampaignCreator")
+  campaignRoles   CampaignUser[]
+  characters      Character[]
+  uploadedManuals Manual[]         @relation("ManualUploader")
+  
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// GAME SYSTEM LAYER
+// -----------------------------------------------------------------------------
+model GameSystem {
+  id          String   @id @default(cuid())
+  name        String   @unique // e.g., "D&D 5e"
+  description String?
+  
+  // Relations
+  rules       GameRule[]
+  campaigns   Campaign[]
+  manuals     Manual[]
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model GameRule {
+  id           String     @id @default(cuid())
+  name         String
+  content      String     @db.Text
+  systemId     String
+  
+  system       GameSystem @relation(fields: [systemId], references: [id], onDelete: Cascade)
+  
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@index([systemId])
+}
+
+// -----------------------------------------------------------------------------
+// CAMPAIGN LAYER
+// -----------------------------------------------------------------------------
+enum CampaignRole {
+  DM
+  PLAYER
+}
+
+model Campaign {
+  id          String   @id @default(cuid())
+  name        String
+  description String?  @db.Text
+  systemId    String
+  createdById String
+  
+  // Relations
+  system      GameSystem    @relation(fields: [systemId], references: [id])
+  createdBy   User          @relation("CampaignCreator", fields: [createdById], references: [id])
+  users       CampaignUser[]
+  characters  Character[]
+  sessions    GameSession[]
+  maps        Map[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([systemId])
+  @@index([createdById])
+}
+
+model CampaignUser {
+  id         String       @id @default(cuid())
+  campaignId String
+  userId     String
+  role       CampaignRole @default(PLAYER)
+  
+  campaign   Campaign     @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  user       User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  createdAt  DateTime     @default(now())
+  
+  @@unique([campaignId, userId])
+}
+
+model GameSession {
+  id         String   @id @default(cuid())
+  campaignId String
+  date       DateTime @default(now())
+  summary    String?  @db.Text
+  
+  campaign   Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([campaignId])
+}
+
+// -----------------------------------------------------------------------------
+// CHARACTER LAYER
+// -----------------------------------------------------------------------------
+model Character {
+  id                 String   @id @default(cuid())
+  userId             String
+  campaignId         String?
+  
+  // Basic Info
+  name               String
+  race               String?
+  charClass          String?  // Renamed from class (reserved keyword)
+  level              Int      @default(1)
+  
+  // Attributes (D&D 5e focused MVP)
+  strength           Int      @default(10)
+  dexterity          Int      @default(10)
+  constitution       Int      @default(10)
+  intelligence       Int      @default(10)
+  wisdom             Int      @default(10)
+  charisma           Int      @default(10)
+  
+  // Combat stats
+  armorClass         Int      @default(10)
+  hitPoints          Int      @default(10)
+  maxHitPoints       Int      @default(10)
+  temporaryHitPoints Int      @default(0)
+  initiative         Int      @default(0)
+  speed              Int      @default(30)
+  
+  notes              String?  @db.Text
+  
+  // Relations
+  user               User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  campaign           Campaign? @relation(fields: [campaignId], references: [id], onDelete: SetNull)
+  inventory          Inventory?
+  tokens             Token[]
+  
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  @@index([userId])
+  @@index([campaignId])
+}
+
+// -----------------------------------------------------------------------------
+// INVENTORY AND ITEMS LAYER
+// -----------------------------------------------------------------------------
+model Item {
+  id          String   @id @default(cuid())
+  name        String
+  description String?  @db.Text
+  weight      Float    @default(0)
+  type        String?  // weapon, armor, potion, etc.
+  rarity      String?  // common, uncommon, rare, etc.
+  damage      String?  // e.g., "1d8", "2d6"
+  properties  String?  // JSON string or comma-separated for properties like "finesse, light"
+  
+  inventoryItems InventoryItem[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Inventory {
+  id          String   @id @default(cuid())
+  characterId String?  @unique
+  // If we want party-shared inventories, we could add campaignId instead of/alongside characterId
+  
+  character   Character? @relation(fields: [characterId], references: [id], onDelete: Cascade)
+  items       InventoryItem[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model InventoryItem {
+  id          String   @id @default(cuid())
+  inventoryId String
+  itemId      String
+  quantity    Int      @default(1)
+  equipped    Boolean  @default(false)
+  
+  inventory   Inventory @relation(fields: [inventoryId], references: [id], onDelete: Cascade)
+  item        Item      @relation(fields: [itemId], references: [id], onDelete: Cascade)
+  
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([inventoryId, itemId])
+}
+
+// -----------------------------------------------------------------------------
+// COMPENDIUM LAYER
+// -----------------------------------------------------------------------------
+model Spell {
+  id          String   @id @default(cuid())
+  name        String
+  level       Int      @default(0) // 0 for cantrip
+  school      String?
+  description String   @db.Text
+  castingTime String?  // e.g., "1 action"
+  range       String?  // e.g., "120 feet"
+  components  String?  // V, S, M
+  duration    String?  // e.g., "Concentration, up to 1 minute"
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Ability {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+enum ManualVisibility {
+  PUBLIC
+  DM_ONLY
+}
+
+model Manual {
+  id          String           @id @default(cuid())
+  title       String
+  source      String?          // e.g., "Wizards of the Coast" or custom
+  visibility  ManualVisibility @default(DM_ONLY)
+  systemId    String
+  uploadedById String
+  
+  system      GameSystem       @relation(fields: [systemId], references: [id])
+  uploadedBy  User             @relation("ManualUploader", fields: [uploadedById], references: [id])
+  entries     ManualEntry[]
+  
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([systemId])
+  @@index([uploadedById])
+}
+
+model ManualEntry {
+  id          String   @id @default(cuid())
+  manualId    String
+  title       String
+  category    String   // spell, item, rule, monster, ability, equipment
+  description String   @db.Text
+  pageRef     String?  // Page reference e.g., "pg. 142"
+  
+  manual      Manual   @relation(fields: [manualId], references: [id], onDelete: Cascade)
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([manualId])
+}
+
+// -----------------------------------------------------------------------------
+// VIRTUAL TABLETOP LAYER (Future Expansion Setup)
+// -----------------------------------------------------------------------------
+model Map {
+  id          String   @id @default(cuid())
+  campaignId  String
+  name        String
+  imageUrl    String   // URL to stored image
+  gridSize    Int      @default(50) // pixels per grid square
+  
+  campaign    Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([campaignId])
+}
+
+enum TokenType {
+  PLAYER
+  NPC
+  ENEMY
+}
+
+model Token {
+  id          String    @id @default(cuid())
+  name        String
+  type        TokenType @default(NPC)
+  characterId String?
+  imageUrl    String?
+  positionX   Float     @default(0)
+  positionY   Float     @default(0)
+  hp          Int?      // Overrides/tracks local HP if unlinked
+  visibility  Boolean   @default(false)
+  
+  character   Character? @relation(fields: [characterId], references: [id], onDelete: SetNull)
+  
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([characterId])
+}
