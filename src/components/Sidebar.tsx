@@ -13,6 +13,7 @@ const navItems = [
 ];
 
 const dmItems = [
+  { href: "/dashboard/players", icon: "🗝", label: "Giocatori" },
   { href: "/dashboard/maps", icon: "🗺", label: "Mappe" },
   { href: "/dashboard/loot", icon: "💎", label: "Loot" },
 ];

@@ -50,6 +50,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/api/users",
+      "regex": "^/api/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/users(?:/)?$"
+    },
+    {
       "page": "/dashboard",
       "regex": "^/dashboard(?:/)?$",
       "routeKeys": {},
@@ -90,6 +96,12 @@
       "regex": "^/dashboard/maps(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dashboard/maps(?:/)?$"
+    },
+    {
+      "page": "/dashboard/players",
+      "regex": "^/dashboard/players(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/players(?:/)?$"
     },
     {
       "page": "/login",

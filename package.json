@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prisma": "prisma format"
+    "prisma": "prisma format",
+    "create-user": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/create-user.ts"
   },
   "repository": {
     "type": "git",

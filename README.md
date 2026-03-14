@@ -135,7 +135,17 @@ pm2 startup
 pm2 save
 ```
 
-### 8. Gestione Firewall e Accesso all'Applicazione
+### 8. Creazione Account Amministratore (DM)
+
+Prima di accedere all'interfaccia web, devi creare il tuo account master (con privilegi di admin) tramite riga di comando. Assicurati di trovarti ancora nella directory `/opt/GdrHelper`.
+
+```bash
+# Crea l'account Dungeon Master
+npm run create-user "Il Tuo Nome" "la_tua_email@dominio.it" "LaTuaPasswordSicura" "ADMIN"
+```
+*(Sostituisci i campi con i tuoi veri dati, mantenendo le virgolette per sicurezza)*
+
+### 9. Gestione Firewall e Accesso all'Applicazione
 
 Debian potrebbe avere `ufw` o le `iptables` attive. Assicurati che la porta 3000 (o 80/443 se monterai Nginx proxy reverse avanti a NodeJS) sia aperta.
 

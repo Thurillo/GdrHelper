@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description: 'Virtual Tabletop for D&D 5e',
 };
 
+import NextAuthProvider from '@/components/NextAuthProvider';
+
 export default function RootLayout({
   children,
 }: {
@@ -13,7 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NextAuthProvider>{children}</NextAuthProvider>
+      </body>
     </html>
   );
 }
