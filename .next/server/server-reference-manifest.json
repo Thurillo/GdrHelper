@@ -1,5 +1,21 @@
 {
-  "node": {},
+  "node": {
+    "406ef20b4178c55f82eb2de782adfb486046b077f9": {
+      "workers": {
+        "app/dashboard/characters/new/page": {
+          "moduleId": 82842,
+          "async": false,
+          "exportedName": "createCharacter",
+          "filename": "src/app/actions/character.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/characters/new/page": "rsc"
+      },
+      "filename": "src/app/actions/character.ts",
+      "exportedName": "createCharacter"
+    }
+  },
   "edge": {},
   "encryptionKey": "1sgz5YRzIoQ5jhv5glFwnDnXPL3ttAxLFriU/QgHS8Y="
 }

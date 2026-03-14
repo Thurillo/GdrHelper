@@ -1,0 +1,2099 @@
+PLAYER'S HANDBOOK 
+INDICE 
+PREFAZIONE 
+__ 
++(--
+--------
+------4 
+INTRODUZIONE
+5 
+-
+Mondi di Avventura ..............•.....................•...........•........••...... 5
+Come Usare Questo Libro ........... ....................... ..................... 6
+Come si Gioca ......................•................................................... 6
+Avventure .........................................................•......................... 7 
+CAPITOLO 1: GUIDA ALLA CREAZIONE 
+DEL PERSONAGGI0 
+.•••... . ..• ••. ... .•• •..•..• •.. ..•.. •....••. .. ... ..••.. 11
+Oltre i1 t• Livello .............................................................. 15 
+CAPITOLO 2: RAZZE .................................................. 17
+Scegliere una Razza ....................................................... 17 
+Elfo ..................................................................................... 18 
+Halfting 
+..................................•......................................... 23 
+Nano 
+................................................................................. 26 
+Umano .................................................................... ......... 29 
+Dragonide .............................•......................................... 32 
+Gnomo ••..••••.....••••....••••.....•........•.......•......••.•....••••...••.••... 35 
+Mezzelfo .......................................................................... 38 
+Mezzorco 
+......... ................................................................ 40 
+Tiefting .................................•............................................ 42 
+CAPITOLO 3: CLASSI ............................................... 45
+Barbaro ..................•......................................................•. 46 
+Bardo ......................................•......................................... 51 
+Chierico 
+....................••..................................................... 56 
+Druido ............................................................................. 64 
+Guerriero ......................................................................... 70 
+Ladro ..............................•......•.......................................... 76 
+h 
+Mago ................................................................................. 81 
+Monaco ...........................•................................................ 89 
+Paladino ...............................................................•.......... 95 
+Ranger ......................... ................................................... 102 
+Stregone .................•...................................................... 107 
+Warlock .......................•................................................. 113 
+CAPITOLO 4: PERSONALITÀ 
+E BACKGROUND .......................................................... 121
+Dettagli del Personaggio 
+........................................... 121 
+Ispirazione .................................................................... 124 
+Background ................................................................... 125 
+CAPITOLO 5: EQUIPAGGIAMENTO . ................. 143
+Equipaggiamento di Partenza ........... ......... ............. 143 
+Ricchezza ...................................................................... 143 
+Armature e Scudi .............. ,. ........................................ 144 
+Armi ............................................................................... 146 
+Equipaggiamento d'Avventura ............................... .. 148 
+Strumenti 
+...................................................................... 154 
+Cavalcature e Veicoli 
+.................................................. 155 
+Merci········································-···································· 157 
+Spese ............................................................................. 157 
+Oggetti Insoliti ........•......••.•......••........................•......... 159 
+CAPITOLO 6: OPZIONI DI 
+PERSONALIZZAZIONE ............................................. 163
+Multiclasse .......•....•...................................................... 163 
+Talenti 
+............................••..........•................................... 165 
+PARTE 2 
+171 
+----
+CAPITOLO 7: USARE I PUNTEGGI 
+DI CARA'ITERISTICA .............................................. 173
+Punteggi di Caratteristica e Modificatori .............. 173 
+Vantaggio e Svantaggio ............................................. 173 
+Bonus di Competenza .............................. 4 ................. 173 
+Prove di Caratteristica 
+................................................ 17 4 
+Descrizione delle Caratteristiche 
+............................ 175 
+Tiri Salvezza ................................................................ 179 
+CAPITOLO 8: ALL'AVVENTURA 
+......................... 181
+Tempo ................. ............................. _ ............................. 181 
+Movimento .•.••...••.....•••..............••.......•.• -....••.......•....•..• 181 
+L'Ambiente 
+...•••.....•••••.....••...••...••.••................•..•.....•...... 183 
+Interazioni Sociali .......................... ............................ 185 
+Riposare 
+........................................................•............... 186 
+Tra le Avventure ............................ .............................. 186 
+CAPITOLO 9: COMBATTIMENT0 ...................... 189
+L'Ordine di Combattimento 
+...................................... 189 
+Movimento e Posizione 
+.............................................. 190 
+Azioni in Combattimento .......................................... 192 
+Effettuare un Attacco 
+........................... ....................... 193 
+Copertura ··············································-······················· 196 
+Danni e Guarigione ..................................................... 196 
+Combattere in Sella ................................................... 198 
+Combattere Sott'Acqua ............................................. 198 
+PARTE3 
+199 
+CAPITOLO 10: MAGIA ............................................ 201
+Cos'è un Incantesimo? 
+............................................... 201 
+Lanciare un Incantesimo .......................................... 202 
+CAPITOLO 11: INCANTESIMI. .............................. 207
+Liste degli Incantesimi .............................................. 207 
+Descrizione degli lncantesim i ................................. 211 
+APPENDICE A: CONDIZIONI 
+290 
+------
+APPENDICE B: 
+DIVINITÀ DEL MULTIVERSO 
+293 
+------
+APPENDICE C: 
+PIANI DI ESISTENZA 
+300 
+Il Piano Materiale .................. ..................................... 300 
+Oltre il Piano Materiale ............................................. 301 
+APPENDICE D: 
+STATISTICHE DELLE CREATURE 
+304 
+APPENDICE E: 
+LETTURE DI ISPIRAZIONE 
+INDICE ANALITICO 
+SCHEDA DEL PERSONAGGIO 
+---
+312 
+313 
+317 
+PREFAZIONE 
+'ERA UNA VOLTA, TANTO TEMPO FA, IN UN REAME 
+chiamato il Midwest degli Stati Uniti (e più 
+specificamente negli stati del Minnesota e 
+del Wisconsin) un gruppo di amici che. una 
+volta riunitosi, cambiò per sempre il corso 
+c.\\ 
+della storia del gioco. 
+.// 
+Non era quella la loro intenzione. Erano 
+stanchi di limitarsi a leggere storie che 
+parlavano di mondi magici, mostri, magie e avventure. 
+Volevano giocare in quei mondi anzich limilarsi a 
+osservarli. Il fatto che a tale scopo inventarono DUNGEONS 
+& DRAGONS, dando il via in questo modo n ùha rivoluzione 
+nel mondo del gioco che perdura ancora ai nostri giorni, è 
+indicativo di due cose. 
+Per prima cosa, è indicativo del loro ingegno e del loro 
+genio nell'intuire che i giochi sono il modo migliore per 
+esplorare dei mondi che altrimenti non esisterebbero. 
+Quasi tutti i giochi moderni, sia quelli da tavolo, sia quelli 
+giocati su un dispositivo digitale, sono debitori di qualcosa 
+nei confronti di D&D. 
+Per seconda cosa, è indicativo del fascino intrinseco del 
+gioco che crearono. DUNGEONS & DRAGONS diede il via a 
+un prosperoso fenomeno globale: è il primo gioco di ruolo e 
+rimane uno dei migliori nella sua categoria. 
+Per giocare a D&D, e per giocare bene, non è necessario 
+leggere tutte le regole, memorizzare ogni dettaglio del 
+gioco o padroneggiare la sottile arte di tirare dei dadi dalla 
+forma insolita. Nulla di tutto questo è collegato a ciò che 
+davvero conta nel gioco. 
+Le uniche cose necessarie sono due. La prima è un 
+gruppo di amici con cui condividere l'esperienza di gioco. 
+Giocare assieme ai propri amici è molto divertente, ma 
+D&D non si limita a essere divertente. 
+Giocare a D&D è un esercizio di creazione congiunta. 
+I giocatori creano tutti assieme una serie di epiche storie 
+ricche di tensione e di scene memorabili. Farete battute 
+demenziali che vi faranno ridere anche a distanza di anni. 
+I dadi saranno crudeli con voi, ma imparerete a resistere 
+stoicamente. La vostra creatività collettiva darà vita a storie 
+che racconterete più e più volte, storie che vanno dalle 
+peggiori assurdità alle imprese più leggendarie. 
+Se non avete amici interessati a giocare, non 
+preoccupatevi. Attorno a un tavolo di D&D si forma 
+un'alchimia speciale che nessun'altra esperienza 
+può eguagliare. 
+PRliFAZIONE 
+Se giocate con qualcuno abbastanza a lungo, quasi 
+sicuramente finirete per diventare amici: è un fantastico 
+effetto collaterale del gioco. Il vostro prossimo gruppo di 
+gioco vi attende al più vicino negozio di giochi, su un forum 
+online o a una convention di giochi. 
+La seconda cosa che vi serve è una fervida 
+immaginazione o, meglio ancora, la disponibilità a usare 
+l'immaginazione di cui siete dotati. Non è necessario 
+essere un esperto narratore o un artista geniale. 
+È sufficiente avere un pizzico di ispirazione creativa, 
+il coraggio di essere disposti a costruire qualcosa e a 
+condividerla con gli altri. 
+Fortunatamente, cosl come D&D può rafforzare 
+un'amicizia, può anche spronare i giocatori a creare e 
+a condividere. D&D è un gioco che insegna a trovare 
+la soluzione più ingegnosa, a comunicare quell'idea 
+improvvisa che potrebbe risolvere un problema, a 
+immaginare ciò che potrebbe accadere anziché limitarsi ad 
+accettare cib che accade. 
+I primi personaggi e le prime avventure create saranno 
+probabilmente ricchi di stereotipi. Questo vale per tutti, dal 
+più grande Dungeon Master della storia in giù. È sufficiente 
+accettare questa realtà e passare a creare il secondo 
+personaggio o avventura, che sarà migliore. e poi il terzo, 
+che sarà a sua volta migliore. Ripetendo la procedura 
+nell'arco del tempo, presto sarete in grado di creare 
+qualsiasi cosa, dal background di un personaggio a un 
+epico mondo ricco di avventure fantastiche. 
+Una volta sviluppata, questa abilità sarà vostra per 
+sempre. Innumerevoli scrittori, artisti e altri creatori 
+ricollegano i loro esordi a poche pagine di appunti di D&D, 
+una manciata di dadi e un tavolo da cucina. 
+Ma soprattutto, D&D è vostro per sempre. Le amicizie 
+che stringerete attorno al tavolo saranno uniche. 
+Le avventure in cui vi imbarcherete, i personaggi che 
+creerete, i ricordi che custodirete ... saranno tutti vostri. 
+D&D è il vostro angolo di universo personale, un luogo 
+dove siete liberi di fare tutto ciò che volete. 
+Ora è giunto il momento di mettersi in viaggio. Leggete 
+le regole del gioco e la storia dei suoi mondi, ma non 
+dimenticate mai che sarete voi a impartire loro la vita. 
+Non sarebbero nulla senza la scintilla di vita che voi 
+donerete all'universo che vi attende. 
+Mike Mearls 
+Maggio2014 
+INTRODUZIONE 
+L GIOCO DI RUOLO 01 DUNGEONS & 0RAGONS 
+è un gioco narrativo ambientato in un mondo 
+di spade e di magia. Condivide alcuni elementi 
+con i giochi da bambino in cui fingiamo di 
+essere qualcun altro. Come in quei giochi, 
+D&D è frutto dell'immaginazione. Pensiamo 
+all'immagine di uno svettante castello che si 
+staglia contro un tempestoso cielo notturno e 
+immaginiamo in che modo un avventuriero fantasy potrebbe 
+reagire alla sfida presentata da quella scena. 
+, 
+" 
+Dungeon Master {DM): Una volta superati i picchi 
+rocciosi, la strada gira bruscamente a est e Castel 
+Ravenloft si erge davanti a voi. Alcune torri di pietra 
+diroccate vegliano silenziosamente sulla strada antistante, 
+simili a postazioni di guardia abbandonate. Oltre 
+quelle torri si apre un ampio fossato che svanisce nella 
+fitta nebbia sottostante. Un ponte levatoio abbassato 
+attraversa il fossato e conduce oltre l'arco d'ingresso, 
+che si affaccia sul cortile del castello. Le catene del ponte 
+levatoio cigolano al vento, erose dalla ruggine e dal peso 
+che devono sorreggere. Dall'alto delle solide mura del 
+castello, alcuni gargoyle di pietra vi fissano con orbite 
+vuote e ghigni mostruosi. Una grata di legno putrefatta 
+e ricoperta di vegetazione incombe al di sopra del tunnel 
+dì accesso. Oltre il cortile, le porte principali di Castel 
+Ravenloft sono spalancate e una calda luce illumina la 
+corte interna. 
+Luca {che interpreta Careth): Voglio dare un'occhiata 
+ai gargoyle. Ho la sensazione che non siano soltanto 
+delle statue. 
+Oenise (che interpreta Riva): Il ponte levatoio sembra 
+pericoloso? Voglio controllare quanto è solido. Sembra 
+che si possa attraversare o rischia di crollare sotto il 
+nostro peso? 
+A differenza dei giochi da bambino, D&D fornisce 
+alle storie una struttura, un metodo per determinare le 
+conseguenze delle azioni degli avventurieri. I giocatori 
+tirano i dadi per·determinare se i loro attacchi mancano 
+o colpiscono il bersaglio, o se il loro avventuriero riesce 
+a scalare una parete rocciosa, a schivare un fulmine 
+magico o a compiere qualche altra impresa pericolosa. 
+Tutto è possibile, ma i dadi rendono alcuni esiti più 
+probabili di altri. 
+Dungeon Master (DM): OK, uno alla volta. Luca, tu 
+esamini i gargoyle? 
+Luca: 51. Per caso c'è qualche traccia che lasci credere 
+che non si tratti solo di decorazioni? 
+DM: Ci vuole una prova di Intelligenza. 
+Luca: la mia abilità di Indagare si applica? 
+DM: Certo! 
+Luca (tira un d20): Bah. Sette. 
+DM: A te sembrano solo decorazioni. Oenise, hai detto 
+che Riva controlla il ponte levatoio? 
+Nel gioco di DuNGEONS & DRAGONS ogni giocatore crea 
+un avventuriero (chiamato anche personaggio) e si unisce a 
+una squadra di altri avventurieri (interpretati dagli amici). 
+Collaborando, il gruppo può esplorare un sinistro dungeon, 
+una città in rovina, un castello infestato, un tempio 
+nascosto nel cuore della giungla o una caverna piena 
+di lava nei sotterranei di una misteriosa montagna. Gli 
+avventurieri possono risolvere enigmi, parlare con le altre 
+creature, combattere contro mostri fantastici e scoprire 
+favolosi oggetti magici e altri tesori. 
+Un giocatore, tuttavia, assumerà il ruolo di Dungeon 
+Master (DM), il principale narratore e l'arbitro del gioco. 
+Il DM crea le avventure per i personaggi e questi affrontano 
+i pericoli e decidono quali sentieri esplorare. Quando il DM 
+descrive J'ingresso a Castel Ravenloft, i giocatori decidono 
+cosa faranno i loro avventurieri. Attraversano il ponte levatoio 
+pericolante e consumato dalle intemperie? Si legano l'uno 
+all'altro con una corda per evitare che qualcuno cada se il 
+ponte dovesse cedere? Oppure lanciano un incantesimo che 
+li trasporti oltre il fossato? 
+Poi il DM determina il risultato delle azioni degli 
+avventurieri e descrive loro l'esperienza. Dal momento che 
+il DM può reagire a tutto ciò che i giocatori tentano di fare 
+improvvisando, D&D è un'esperienza infinitamente elastica 
+e ogni avventura può rivelarsi entusiasmante e inaspettata. 
+Il gioco non ha una vera conclusione. Quando una storia 
+o una missione si conclude, se ne può iniziare un'altra per 
+generare una storia più ampia e prolungata nel tempo, 
+chiamata campagna. Molti giocatori portano avanti le loro 
+campagne per mesi o per anni, incontrandosi con gli amici 
+più o meno ogni settimana per riprendere la storia da dove 
+si era interrotta. Gli avventurieri crescono in potenza man 
+mano che la campagna prosegue. Ogni mostro sconfitto, 
+ogni avventura completata e ogni tesoro recuperato non 
+solo amplia la storia in corso, ma fornisce anche nuove 
+capacità agli avventurieri. Questo incremento di potere è 
+rappresentato dal livello di un avventuriero. 
+Non ci sono vincitori e vinti in una sessione di DuNGEONS 
+& DRAGONS, o quanto meno non nel senso tradizionalmente 
+associato a questi termini. Il DM e i giocatori raccontano 
+assieme una storia entusiasmante incentrata su un gruppo 
+di intrepidi avventurieri che a.ff ronta una serie di pericoli 
+letali. A volte un avventuriero può fare una brutta fine ed 
+essere fatto a pezzi da un mostro feroce, o sconfitto da 
+un perfido nemico, ma anche in quel caso gJi avventurieri 
+possono mettersi in cerca di potenti magie per riportare 
+in vita il compagno caduto. In alternativa, il giocatore 
+potrebbe scegliere di creare un nuovo personaggjo con 
+cui continuare a giocare. Il gruppo può anche fallire nel 
+tentativo di completare una missione, ma se tutti si sono 
+divertiti e hanno dato vita a una storia memorabile, tutti 
+vincono comunque. 
+MONDI DI AVVENTURA 
+I molti mondi di DUNGEONS & DRAGONS sono luoghi 
+ricchi dì magia e di mostri, di coraggiosi guerrieri e di 
+spettacolari avventure. Partendo dalle fondamenta di un 
+medioevo fantasy, si arricchiscono di creature, luoghi e 
+magie che ne fanno dei mondi unici. 
+I vari mondi di OUNGEONS & DRAGONS fanno parte di 
+un vasto cosmo chiamato il multiverso, sono collegati 
+in modi strani e misteriosi tra loro e ad altri piani di 
+esistenza, come il Piano Elementale del Fuoco e gli Infiniti 
+Strati dell'Abisso. Questo multiverso contiene un'infinita 
+varietà di mondi, molti dei quali sono stati pubblicati come 
+ambientazioni ufficiali per il gioco di D&D: le leggende 
+delle ambientazioni di Forgotten Realms, Dragonlance, 
+Greyhawk, Dark Sun, Mystara ed Eberron si intrecciano 
+tra loro nella trama del multiverso. Accanto a questi mondi 
+IN'TROOUZJONF. 
+fj 
+ne esistono altre migliaia, creati da intere generazioni di 
+giocatori di D&D nel corso delle loro sessioni. E in mezzo a 
+tutta la ricchezza che il multiverso ha da offrire. anche voi 
+potete creare il vostro mondo personale. 
+Tutti questi mondi condividono alcune caratteristiche, 
+ma ognuno si distingue dagli altri grazie alla sua storia. alle 
+sue culture, ai mostri, alle razze, agli elementi geografici 
+fantastici, agli antichi dungeon e ai subdoli nemici che lo 
+popolano. Gli halfting dell'ambientazione di Dark Sun, 
+per esempio, sono una razza di cannibali che si nasconde 
+nella giungla, mentre gli elfi sono un popolo di nomadi del 
+deserto. Alcuni mondi sono dotati di razze sconosciute 
+nelle altre ambientazioni, come i rorgiati di Eberron, soldati 
+artificiali a cui fu impartita la vita per comíattere nel corso 
+dell'Ultima Guerra. Alcuni mondi sono dominati da una 
+grande storia, come la Guerra delle Lance che svolge un 
+ruolo centrale nell'ambientazione di Dragonlance. Ma 
+ognuno di questi mondi resta un mondo di D&D, dove 
+è possibile usare le regole di questo libro per creare un 
+personaggio e vivere grandi avventure. 
+Il vostro DM può decidere di ambientare la campagna in 
+uno di questi mondi o in uno di sua creazione. Dato che i 
+mondi di D&D possono essere molto diversi l'uno dall'altro, 
+consultatevi con il DM riguardo a eventuali regole specillche 
+che potrebbero influenzare lo svolgimento del gioco. 
+In ultima analisi, il Dungeon Master è sempre l'autorità 
+definitiva riguardo alla campagna e all'ambientazione 
+utilizzata, anche quando si usa un'ambientazione pubblicata. 
+COME USARE QUESTO LIBRO 
+Il Player's Handbook è suddiviso in tre parti. 
+La Parte 1 (capitoli 1-6) descrive come creare un 
+personaggio e contiene le regole e le indicazioni necessarie 
+per creare un personaggio da usare nel gioco. Questo 
+include le informazioni sulle varie razze, classi, background, 
+equipaggiamento e le altre opzioni di personalizzazione tra 
+cui scegliere. Molte regole della parte 1 fanno riferimento 
+al materiale contenuto nelle parti 2 e 3. Se nella parte 1 
+incontrate un concetto di gioco che non capite, consultate 
+l'indice analitico. 
+La Parte 2 (capitoli 7-9) descrive nel dettaglio le regole 
+del gioco, approfondendo le meccaniche di base presentate 
+in questa introduzione. Questa parte spiega i tipi di 
+dadi che dovrete tirare per determinare il successo o il 
+fallimento delle azioni intraprese dal vostro personaggio 
+e descrive le tre categorie generali delle attività di gioco: 
+esplorazione, interazione e combattimento. 
+La Parte 3 (capitoli 10-11) è interamente dedicata alla 
+magia. Tratta la natura della magia nei mondi di D&D, 
+le regole per lanciare incantesimi e la vasta gamma 
+di incantesimi disponibili per i personaggi (e i mostri) 
+incantatori all'interno del gioco. 
+COME SI GIOCA 
+Il gioco di DUNGEONS & DRAGONS si sviluppa seguendo 
+questo schema base. 
+1. Il DM descrive l'ambiente. Il DM illustra ai giocatori 
+dove si trovano i loro avventurieri e cosa c'è nei dintorni, 
+offrendo loro una prima scelta delle opzioni a loro 
+disposizione (quante porte conducono fuori da una stanza, 
+cosa c'è su un tavolo, chi c'è in taverna e cosi via). 
+2. I giocatori descrivono cosa vogliono rare. A volte un 
+giocatore parla per l'intero gruppo e dichiara: "Prendiamo 
+la porta a est", per esempio. In altri casi, i singoli 
+avventurieri potrebbero fare cose diverse: uno potrebbe 
+frugare nel forziere di un tesoro mentre un altro esamina il 
+simbolo esoterico inciso su una parete e un terzo monta la 
+INTRODUZIONE 
+guardia in caso arrivi qualche mostro. I giocatori non sono 
+obbligati ad agire a turno: il DM ascolta ogni giocatore e 
+decide come risolvere quelle azioni. 
+A volte risolvere un'impresa è facile. Se un avventuriero 
+desidera attraversare una stanza e aprire una porta, il DM 
+pub limitarsi a dire che la porta si apre e a descrivere cosa 
+c'è dall'altra parte. Ma la porta potrebbe essere chiusa a 
+chiave, il pavimento potrebbe celare una trappola letale o 
+altre circostanze potrebbero complicare la risoluzione delle 
+attività dell'avventuriero. In quei casi è il DM a decidere 
+cosa succede, spesso affidandosi al tiro di un dado per 
+determinare i risultati di un•azione. 
+3. U DM narra i risultati delle azioni degli avventurieri. 
+La descrizione dei risultati in genere conduce a un 
+altro punto decisionale, che riporta il flusso del gioco 
+direttamente al passo 1. 
+Questo schema si applica quando gli avventurieri 
+esplorano con cautela un complesso di rovine, parlano 
+con un subdolo principe o sono impegnati in un letale 
+combattimento contro un possente drago. In certe 
+situazioni, specialmente in combattimento, l'azione è più 
+strutturata e i giocatori (e il DM) devono svolgere dei turni 
+per scegliere e risolvere le azioni. Nella maggior parte dei 
+casi, tuttavia, il gioco è fluido e flessibile e si adatta alle 
+circostanze dell'avventura. 
+Spesso l'azione di un'avventura si svolge nell'immagi· 
+nazione dei giocatori e del DM e si basa sulla descrizione 
+verbale della scena da parte del DM. Ad alcuni DM piace 
+usare la musica, le illustrazioni o atcuni effetti registrati per 
+creare l'atmosfera giusta, e molti giocatori e DM adottano 
+voci diverse quando parlano impersonando gli avventurieri, 
+i mostri e gli altri personaggi del gioco. A volte un DM può 
+stendere sul tavolo una mappa e usare dei segnalini o delle 
+miniature per rappresentare ogni creatura coinvolta in una 
+scena per aiutare i giocatori a tenere traccia della posizione 
+in cui si trova ogni personaggio. 
+I DADI DEL Gioco 
+Il gioco usa una serie di dadi poliedrici dai diversi numeri 
+di facce. Questi dadi sono disponibili nei negozi di giochi e 
+in molte librerie. 
+Nelle regole del gioco si fa riferimento ai vari dadi con 
+una lettera seguita dal numero dei lati: d4. d6, d8, dlO, dl2 
+e d20. Per esempio1 un d6 è un dado a sei facce (il tipico 
+cubo usato in moltissimi giochi). 
+I dadi percentuali, o dlOO, funzionano in modo 
+leggermente diverso. Si genera un numero da 1 a100 
+tirando due dadi a dieci facce diversi, numerati da O a 9. Un 
+dado (da indicare prima del tiro) stabilirà le decine e l'altro 
+le unità. Per esempio, se i due dadi forniscono un 7 e un 1, 
+il risultato del tiro sarà 71. Due zeri rappresentano il 100. 
+Alcuni dadi a dieci facce sono numerati a decine (00, 10, 
+20 e cos1 via) per facilitare la distinzione tra la cifra delle 
+decine e quella delle unità. In quel caso, un tiro di 70 e 1 
+equivale a 71 e un tiro di 00 e O equivale a 100. 
+Quando è necessario tirare i dadi, le regole indicano 
+quanti dadi di un certo tipo vanno tirati, nonché quali 
+modificatori aggiungere. Per esempio, "3d8 + 5" significa 
+che bisognerà tirare tre dadi a otto facce, sommare 
+assieme i risultati e aggiungere 5 al totale. 
+La dicitura "d" appare anche nelle espressioni "ld3" e 
+"ld2." Per simulare il tiro di ld3 si tira un d6 e si divide il 
+risultato ottenuto per 2 (arrotondando per eccesso). Per 
+simulare il tiro di ld2 si tira un qualsiasi dado e si assegna 
+un valore di 1 o di 2 al risultato pari o dispari ottenuto. (In 
+alternativa, se il numero ottenuto è superiore alla metà del 
+numero delle facce del dado, quel risultato equivale a 2.) 
+ILD20 
+-
+Il fendente di spada sferrato da un avventuriero riesce a 
+ferire il drago o si limita a rimbalzare sulle sue scaglie 
+dure come il ferro? L'ogre crederà a una bugia sfacciata? 
+Un personaggio riuscirà ad attraversare a nuoto le acque 
+impetuose di un fiume? Un personaggio è in grado di 
+evitare il grosso dell'impatto di una palla di fuoco o viene 
+investito in pieno dalla fiammata? In casi come questi, in 
+cui l'esito di un'azione è incerto, il gioco di DUNGEONS & 
+DRAGONS si affida al tiro di un dado a 20 facce, o d20, per 
+determinare il successo o il fallimento. 
+Ogni personaggio e ogni mostro del gioco è dotato di una 
+serie di capacità definite da sei punteggi di caratteristica. 
+Le caratteristiche sono Forza, Destrezza, Costituzion, 
+Intelligenza, Saggezza e Carisma e solitamente variano da 
+3 a 18 nella maggior parte degli avventurieri. (I punteggi 
+minimi dei mostri possono scendere fino a 1 e quelli 
+massimi salire fino a 30.) Questi punteggi di caratteristica 
+e i modificatori di caratteristica da essi derivati formano 
+la base di quasi ogni tiro del d20 che un giocatore effettua 
+per conto di un personaggio o di un mostro. 
+Le prove di caratteristica, i tiri per colpire e i tiri 
+salvezza sono le tre categorie principali di tiri del d20 e 
+costituiscono le regole base del gioco. Tutti e tre prevedono 
+i semplici passi seguenti. 
+1. Tirare un dado e aggiungere un modJftcatore. Si 
+tira un d20 e si aggiunge il modificatore rilevante. Questo 
+modificatore è solitamente derivato da uno dei sei punteggi 
+di caratteristica e a volte include un bonus di competenza 
+che rappresenta una particolare abilità di un personaggio. 
+(Vedi il capitolo 1 per i dettagli su ogni caratteristica e su 
+come determinare un modificatore di caratteristica.) 
+2. Applicare bonus e penalità circostanziali. Un 
+privilegio di classe, un incantesimo, una circostanza 
+particolare o un effetto di altro tipo potrebbero fornire un 
+bonus o una penalità alla prova. 
+3. Confrontare il totale con un numero bersaglio. Se 
+il totale è pari o superiore al numero bersaglio, allora la 
+· 
+prova di caratteristica, il tiro per colpire o il tiro salvezza 
+ha successo, altrimenti fallisce. Solitamente è il DM a 
+determinare i numeri bersaglio e a riferire ai giocatori se 
+le loro prove di caratteristica, tiri per colpire e tiri salvezza 
+hanno avuto successo o sono falliti. 
+Il numero bersaglio di una prova di caratteristica o 
+di un tiro salvezza è chiamato Classe Difficoltà (CD). 
+Il numero bersaglio di un tiro per colpire è chiamato 
+Classe Armatura (CA). 
+Questa semplice regola governa la risoluzione della 
+maggior parte delle imprese nel gioco di D&D. Il capitolo 
+7, "Usare i Punteggi di Caratteristica", include le regole 
+dettagliate relative all'uso del d20 nel gioco. 
+VANTAGGIO E SVANTAGGIO 
+-----
+A volte una prova di caratteristica, un tiro per colpire o un 
+tiro salvezza è modificato da situazioni speciali chiamate 
+vantaggio e svantaggio. Un vantaggio rappresenta le 
+circostanze positive applicabili al tiro di un d20, mentre 
+uno svantaggio rappresenta ropposto. Quando un 
+personaggio dispone di vantaggio o svantaggio, tira un 
+secondo d20 al momento di effettuare il tiro. Se dispone 
+di vantaggio, usa il più alto dei due risultati, mentre se 
+dispone di svantaggio, usa il più basso. Per esempio, se 
+dispone di svantaggio e ottiene al tiro un 17 e un 5, usa il 5. 
+Se invece dispone di vantaggio, usa il 17. 
+I dettagli delle regole relative al vantaggio e allo 
+svantaggio sono contenute nel capitolo 7. 
+SPECIFICO BATTE GENERICO 
+Questo libro contiene una serie di regole {specialmente 
+nelle parti 2 e 3) che governano lo svolgimento del gioco. 
+Detto questo, esistono molti tratti razziali, privilegi di 
+classe, incantesimi, oggetti magici, capacità dei mostri e 
+altri elementi di gioco che prevaricano in qualche modo le 
+regole generali, ponendo un'eccezione al funzionamento 
+generale del gioco. È importante ricordare quanto segue: 
+se una regola specifica contraddice una regola generica, 
+la regola specifica vince. 
+Le eccezioni alle regole riguardano in genere casi 
+molto particolari. Per esempio, la maggior parte degli 
+avventurieri non possiede competenza negli archi lunghi, 
+ma tutti gli elfi dei boschi ne sono invece dotati grazie a un 
+tratto razziale. Quel tratto crea un'eccezione minore nel 
+gioco. Altri esempi di prevaricazione delle regole sono più 
+rilevanti: per esempio, un avventuriero normalmente non 
+può passare attraverso le pareti, ma alcuni incantesimi 
+lo rendono possibile. La magia è in genere la causa delle 
+principali eccezioni alle regole. 
+ARROTONDARE PER DIFETTO 
+------
+Resta solo un'ultima regola generale da tenere presente 
+fin dall'inizio. Ogni volta che è necessario dividere un 
+numero nel gioco, se il risultato della divisione fornisce una 
+frazione, quel risultato va arrotondato per difetto, anche se 
+la frazione è pari o superiore alla metà. 
+AVVENTURE 
+Il gioco di DUNGEONS & DRAGONS è incentrato su un 
+gruppo di personaggi che intraprende un'avventura 
+presentata dal Dungcon Master. Ogni personaggio 
+contribuisce alla risoluzione dell'avventura con le sue doti 
+speciali, rappresentate dai suoi punteggi di caratteristica e 
+abilità, privilegi di classe, tratti razziali, equipaggiamento e 
+oggetti magici. Ogni personaggio è diverso dagli altri ed è 
+caratterizzato da vari punti di forza e punti deboli, quindi il 
+miglior gruppo di avventurieri è quello in cui i personaggi 
+si completano a vicenda e colmano le lacune dei loro 
+compagni. Gli avventurieri devono collaborare se vogliono 
+portare a termine l'avventura con successo. 
+INrrRODUZIONE 
+8 
+L'avventura è il cuore del gioco, una storia con un 
+inizio, una parte centrale e una fine. Un'avventura può 
+essere creata dal Dungeon Master o acquistata in negozio, 
+ritoccata e modificata per venire incontro ai desideri e alle 
+necessità del DM. In ogni caso, un'avventura è ambientata 
+in uno scenario fantastico di qualche genere: può trattarsi 
+di un dungeon sotterraneo, un castello in rovina, una 
+regione selvaggia o una popolosa città. Un'avventura 
+prevede inoltre un ricco cast di personaggi: gli avventurieri 
+creati e interpretati dagli altri giocatori al tavolo e i 
+personaggi non giocanti (PNG), che potrebbero essere 
+datori di lavoro, alleati, nemici, gregari o semplicemente 
+comparse che rimangono sullo sfondo nel corso 
+dell'avventura. Spesso uno dei PNG è un nemico i cai piani 
+metteranno in moto l'azione di tutta l'avventura. 
+. 
+Nel corso delle loro avventure, i personaggi si troveranno 
+di fronte a una vasta gamma di creature, oggetti e 
+situazioni con cui dovranno interagire in vari modi. A volte 
+gli avventurieri e le altre creature faranno del loro meglio 
+per uccidersi o catturarsi a vicenda in combattimento. In 
+altre occasioni gli avventurieri parleranno con un'altra 
+creatura (o perfino con un oggetto magico) per raggiungere 
+un obiettivo. Spesso gli avventurieri impiegheranno del 
+tempo a risolvere un enigma, superare un ostacolo, trovare 
+qualcosa di nascosto o sventare un pericolo incombente. 
+Tra un'impresa e l'altra, gli avventurieri esplorano il 
+mondo, decidono in che direzione mettersi in viaggio e 
+quale sarà la loro prossima mossa. 
+La lunghezza e la complessità delle avventure può 
+variare. Un'avventura breve potrebbe presentare soltanto 
+poche sfide e richiedere una sola sessione di gioco per 
+essere completata. Un'avventura lunga può includere 
+centinaia di combattimenti, interazioni e altre sfide 
+e richiedere dozzine di sessioni prima di giungere a 
+compimento, prolungandosi per varie settimane o mesi 
+di tempo reale. In genere un'avventura si conclude con 
+gli avventurieri che tornano nel mondo civilizzato per 
+riposarsi e godersi i frutti delle loro fatiche. 
+Ma quella non è la fine della storia. Pensate a 
+un'avventura come a una singola puntata di una serie 
+televisiva, composta da vari episodi emozionanti. Una 
+campagna corrisponde all'intera serie, una sequenza di 
+avventure coJJegate l'una all'altra, con un gruppo ricorrente 
+di avventurieri che partecipa alla storia dall'inizio alla fine. 
+I TRE PILASTRI DELL'AVVENTURA 
+Gli avventurieri possono tentare di fare tutto ciò che i 
+loro giocatori riescono a immaginare, ma può essere 
+utile suddividere le loro attività in tre categorie generiche: 
+esplorazione, interazione sociale e combattimento. 
+L'esplorazione include sia i viaggi degli avventurieri 
+nel mondo, sia le loro interazioni con gli oggetti e le 
+situazioni che richiedono la loro attenzione. L'esplorazione 
+è uno scambio tra i giocatori che descrivono come fare 
+agire i loro personaggi e il Dungeon Master che descrive 
+cosa accade di conseguenza. Su una scala più grande, 
+l'esplorazione potrebbe descrivere una giornata di viaggio 
+dei personaggi attraverso una pianura o un'ora impiegata a 
+farsi strada nelle caverne sotterranee. Su scala più piccola, 
+potrebbe riguardare un personaggio che tira una leva in 
+una stanza di un dungeon per vedere cosa succede. 
+L'interazione sociale prevede che gli avventurieri 
+parlino con qualcuno {o con qualcosa). Potrebbero esigere 
+che un esploratore catturato riveli dove si trova l'entrata 
+segreta della tana dei goblin, ottenere informazioni da 
+un prigioniero tratto in salvo, supplicare pietà presso un 
+capotribù degli orchi o persuadere uno specchio magico a 
+mostrare loro un luogo lontano. 
+J NTRODUZlONF 
+Le regole della parte 2 (specialmente i capitoli 7 e 8) 
+si occupano dell'esplorazione e dell'interazione sociale, 
+come anche molti privilegi di classe e tratti caratteriali 
+della parte 1. 
+li combattimento, descritto nel capitolo 9, vede i 
+personaggi e le altre creature scambiarsi colpi d'arma, 
+lanciare incantesimi, cambiare posizione sul campo di 
+battaglia e cosl via allo scopo di sconfiggere il nemico, cosa 
+che può significare uccidere tutti gli avversari, costringerli 
+alla fuga o fare dei prigionieri. 11 combattimento è 
+l'elemento più strutturato di una sessione di D&D, quello 
+in cui le creature agiscono a turno per assicurarsi che tutti 
+abbiano l'opportunità di ngire. Anche nel contesto di una 
+frenetica battaglia, gli avventurieri hanno comunque ampie 
+opportunità di tentare imprese mirabolanti come scivolare 
+lungo una scalinata in equilibrio su uno scudo, esaminare 
+l'ambiente circostante {magari tirando una leva misteriosa) 
+e interagire con le altre creature, che si tratti di alleati, di 
+nemici o di terze parti neutrali. 
+LE MERAVIGLIE DELLA MA GIA 
+Ben poche avventure di D&D si concludono senza che 
+accada qualcosa di magico. Che abbia effetti benefici o 
+dannosi, la magia fa spesso la sua comparsa nella vita di 
+un avventuriero, ed è l'argomento trattato nella parte 3. 
+Nei mondi di DUNGEONS & DRAGONS i praticanti della 
+magia sono rari e si distinguono dalle masse grazie alle 
+loro doti straordinarie. La gente comune può assistere a 
+qualche scena di magia, ma si tratta in genere di questioni 
+di poco conto: un mostro inconsueto, una preghiera a cui 
+viene data una risposta diretta, un mago che passeggia 
+per la strada con un guardiano protettore animato come 
+guardia del corpo. 
+Per gli avventurieri, tuttavia, la magia è essenziale per 
+sopravvivere. Senza la magia curativa dei chierici e dei 
+paladini, gli avventurieri soccomberebbero presto alle 
+loro ferite. Senza il vigoroso sostegno magico dei bardi e 
+dei chierici, i combattenti sarebbero racilmente sopraffatti 
+dagli avversari più potenti. Senza l'immane potenza 
+magica e la versatilità dei maghi e dei druidi, ogni minaccia 
+risulterebbe dieci volte peggiore. 
+La magia è anche uno degli strumenti preferiti dci 
+nemici. Molte avventure prendono il via a causa delle 
+macchinazioni di qualche incantatore intenzionato a usare 
+la magia per scopi malvagi. Il capo di un culto cerca di 
+risvegliare un dio che dorme nelle profondità dell'oceano, 
+una strega rapisce i giovani del villaggio per prosciugarli 
+del loro vigore, un mago folle si sforza di impartire a un 
+esercito di automi una parvenza di vita, un drago dà inizio 
+a un rituale mistico che lo trasformerà in una divinità della 
+distruzione: queste sono soltanto alcune delle minacce 
+magiche che gli eroi potrebbero affrontare. Ma usando a 
+loro volta la magia in forma di incantesimi e oggetti magici, 
+gli avventurieri potranno comunque trionfarel 
+La Creazione di un 
+Personaggio 
+CAPITOLO l: GUIDA ALLA CREAZIONE DEL PERSONAGGIO 
+r 
+L PRIMO PASSO Dr UN GIOCATORE INTENZIONATO 
+a interpretare un avventuriero nel gioco di 
+DUNGEONS & DRAGONS consiste nell'immaginare 
+e creare il proprio personaggio. Un personaggio 
+è una combinazione di statistiche di gioco, spunti 
+di interpretazione e contributi dell'immaginazione 
+del giocatore. Il giocatore sceglie una razza 
+(per esempio un umano o un halftin6'J e una 
+classe (per esempio un guerriero o un mago) e inventa la 
+personalità, l'aspetto e il background di quel pèrsonaggio. 
+Una volta completato, quel personaggio sarà colui che lo 
+rappresenterà all'interno del gioco, il suo avatar nel mondo 
+di 0UNGEONS & DRAGONS. 
+Prima di partire con il passo 1, descritto di seguito, il 
+giocatore dovrà riflettere sul tipo di avventuriero che gli 
+piacerebbe interpretare. Potrebbe essere un guerriero 
+coraggioso, un ladro subdolo, un chierico devoto o un 
+mago stravagante. Oppure potrebbe essere interessato a 
+un personaggio più atipico, come un ladro forzuto a cui 
+piaccia il combattimento a mani nude, o un tiratore scelto 
+specializzato nell'abbattere i nemici a distanza. Se gli 
+piacciono le storie fantasy incentrate sui nani o sugli elfi. 
+pub creare un personaggio appartenente a una di quelle 
+razze. Vorrebbe che il suo personaggio fosse ravventuriero 
+più tenace tra quelli riuniti al tavolo di gioco? Le classi 
+del barbaro e del paladino potrebbero fare per lui. Se 
+un giocatore non sa da che parte cominciare, può dare 
+un'occhiata alle Illustrazioni contenute in questo libro e 
+lasciarsi guidare da ciò che più attira la sua attenzione. 
+Quando il giocatore ha in mente un personaggio, può seguire 
+i passi elencati di seguito. prendendo le decisioni che più 
+rispecchiano il personaggio che desidera creare. Il concetto del 
+personaggio in questione potrebbe evolversi a ogni scelta fatta. 
+Ciò che conta è che alla fine il giocatore si presenti al tavolo con 
+un personaggio che sia entusiasta di interpretare. 
+Nel corso di questo capitolo si usa il termine scheda del 
+personaggio per indicare ciò che viene usato per annotare 
+le informazioni relative al personaggio, che si tratti di 
+una scheda ufficiale (come quella alla fine di questo libro) 
+o di un foglio di carta qualsiasi. Partire con una scheda 
+del personaggio ufficiale di D&D è un ottimo modo per 
+rintracciare rapidamente Je informazioni necessarie e 
+ricordare come usarle net corso del gioco. 
+LA CREAZIONE DI BRUENOR 
+Ogni passo della creazione del personaggio include un esempio 
+relativo al passo in questione. in cui un giocatore di nome Fabio 
+crea il suo personaggio. un nano di nome Bruenor. 
+1. SCEGLIERE UNA RAZZA 
+Ogni personaggio appartiene a una razza, una delle molte 
+specie umanoidi intelligenti che popolano il mondo di D&D. 
+Le razze più comuni per i personaggi giocanti sono quelle 
+?egli elfi, degli halfting, dei nani e degli umani. Alcune razze 
+includono anche delle sottorazze, come i nani delle montagne 
+o gli elfi dei boschi. Il capitolo 2 contiene ulteriori informazioni 
+su queste razzet nonché su altre razze meno diffuse come i 
+dragonidi, gli gnomi, i mezzelfi, i mezzorchi e i tiefling. 
+La scelta della razza contribuisce a definire l'identità del 
+Personaggio in modo importante, stabilendo il suo aspetto 
+g¾nerale e le doti innate fornitegli dalla cultura e dal retaggio 
+d1 q¿ella razza. La razza conrerisce al personaggio alcuni 
+particolari tratti razziali. come per esempio sensi speciali, 
+competenza in certe armi o strumenti, competenza in una 
+0 più abilità o la capacità di utilizzare alcuni incantesimi 
+minori. Questi tratti a volte si intrecciano con le capacità 
+di certe classi, dando origine a combinazioni interessanti 
+(vedi il passo 2). Per esempio, i tratti razziali degli halfling 
+piedelesto fanno di loro dei ladri straordinari. mentre 
+gli elfi alti tendono a diventare dei potenti maghi. A volte 
+può essere divertente anche giocare controcorrente. 
+Un mezzorco paladino o un nano delle montagne mago 
+possono rivelarsi personaggi insoliti ma memorabili. 
+La razza incrementa anche uno o più dei punteggi di 
+caratteristica del personaggio, valori che saranno definiti 
+nel passo 3. Il giocatore deve annotare questi incrementi e 
+ricordarsi di applicarli successivamente. 
+I tratti conferiti dalla razza vanno annotati sulla scheda 
+del personaggio, ricordando di annotare anche i linguaggi 
+di partenza e la velocità base. 
+LA CREAZIONE DI BRUENOR, PASSO 1 
+Fabio inizia a creare il suo personaggio. Decide che un 
+burbero nano delle montagne si adatta bene al concetto 
+di personaggio che vuole interpretare. Trascrive i tratti 
+razziali dei nani sulla sua scheda del personaggio, inclusa 
+la sua velocità di 7 .s metri e i linguaggi che conosce: il 
+Comune e il Nanico. 
+2. SCEGLIERE UNA CLASSE 
+Ogni avventuriero appartiene a una classe. Una classe 
+descrive a grandi linee la vocazione di un personaggio, 
+le doti speciali che egli possiede e le tattiche che tende a 
+utilizzare quando esplora un dungeon, combatte contro i 
+mostri o partecipa a un impegnativo negoziato. Le classi 
+dei personaggi sono descritte nel capitolo 3, .. Classi,.. 
+Un personaggio riceve numerosi benefici dalla classe che 
+sceglie. Molti di questi benefici sono privilegi di classe, 
+capacità (inclusa la possibilità di lanciare incantesimi) che 
+Jo distinguono dai membri delle altre classi. Il personaggio 
+ottiene anche alcune competenze: nelle armature, nelle 
+armi, nelle abilità, nei tiri salvezza e a volte negli strumenti. 
+Le competenze indicano ciò che il personaggio è in grado 
+di fare con particolare bravura, dall'uso di certe armi alla 
+capacità di raccontare bugie in modo convincente. 
+Il giocatore deve annotare tutti i privilegi che la classe 
+fornisce a un personaggio al r livello. 
+LIVELLO 
+Solitamente un personaggio inizia a giocare al i· livello e 
+tramite le avventure a cui partecipa guadagna dei punti 
+esperienza (PE) che gli consentono di avanzare di livello. 
+Un personaggio di ik livello è una figura inesperta nel mondo 
+degli avventurieri, anche se potrebbe già essere un soldato o 
+un pirata e avere partecipato a imprese pericolose in passato. 
+Una partenza al r livello rappresenta l'esordio del 
+personaggio come avventuriero. Se un giocatore ha già 
+dimestichezza con il gioco o si inserisce in una campagna 
+di D&D già avviata, il DM potrebbe decidere di farlo partire 
+a un livello più alto, presumendo che il personaggio sia già 
+sopravvissuto ad alcune turbolente avventure. 
+CREAZIONE RAPIDA 
+u descrizione di ogni classe nel capitolo 3 indude una sezione 
+in cui si offrono suggerimenti per creare rapidamente un 
+personaggio di quella classe< dove assegnare i punteggi di 
+caratteristica più alti, un background adatto a quella classe e gli 
+incantesimi di partenza del personaggio. 
+i 
+j 
+CAPITOLO l I GUIDA ALLA CREAZIONE Dl!L PERSONAGGIO 
+Il giocatore annota il suo livello sulla scheda del 
+personaggio. Se parte a un livello più alto, dovrà annotare 
+gli clementi aggiuntivi che la classe gli fornisce ai livelli 
+oltre il i•. Dovrà inoltre annotare i suoi punti esperienza. 
+Al r liveJlo, un personaggio possiede O PE. Un personaggio 
+di livello più alto solitamente inizia con l'ammontare 
+minimo di PE richiesti per arrivare a quel livello (vedi 
+"Oltre iJ i• Livello" successivamente in questo capitolo), 
+PUNTI FERITA E DADI VITA 
+I punti ferita di un personaggio definiscono la sua robustezza 
+in combattimento e nelle altre situazioni pericolose. I punti 
+ferita sono determinati dai Dadi Vita del personaggio. 
+Al r livello, un personaggio possiede 1 Dado Vita il cui 
+tipo è determinato daJla sua classe. Un personaggip parte 
+con un ammontare di punti ferita pari al risultato più alto di 
+quel dado, come indicato nella descrizione della sua classe. 
+(Vi aggiunge inoltre il suo modificatore di Costituzione, che 
+determinerà nel passo 3.) Questo ammontare indica anche 
+il suo massimo dei punti ferita. 
+Il giocatore annota i punti ferita del personaggio suJla 
+sua scheda del personaggio. Trascriverà inoltre il tipo di 
+Dado Vita usato dal suo personaggio e il numero di Dadi 
+Vita posseduti. Dopo avere riposato, un personaggio 
+può spendere Dadi Vita per recuperare punti ferita (vedi 
+"Riposare" nel capitolo 8, "All'Avventura"). 
+BONUS DI COMPETENZA 
+La tabella che compare nella descrizione di ogni classe 
+riporta il bonus di competenza del personaggio, che per un 
+personaggio di r livello è pari a +2. Il bonus di competenza 
+si applica a molti dei valori che saranno trascritti sulla 
+scheda del personaggio: 
+• I tiri per colpire effettuati usando le armi in cui il 
+personaggio ha competenza 
+• I tiri per colpire effettuati con gli incantesimi lanciati daJ 
+personaggio 
+• Le prove di caratteristica effettuate usando le abilità in 
+cui il personaggio ha competenza 
+• Le prove di caratteristica effettuate usando gli strumenti 
+in cui il personaggio ha competenza 
+• I tiri salvezza in cui il personaggio ha competenza 
+• Le CD dei tiri salvezza relativi agli incantesimi lanciati dal 
+personaggio (spiegati in ogni classe di incantatore) 
+La classe inoltre determina le competenze del 
+personaggio nelle armi e nei tiri salvezza, e alcune delle sue 
+competenze nelle abilità e negli strumenti. (Le abilità sono 
+descritte nel capitolo 7, "Usare i Punteggi di Caratteristica" 
+e gli strumenti nel capitolo 5, "Equipaggiamento".) 
+Il background fornisce al personaggio ulteriori competenze 
+nelle abilità e negli strumenti, e alcune razze gli forniscono 
+ulteriori competenze. Il giocatore dovrà assicurarsi di 
+avere annotato tutte queste competenze e il suo bonus di 
+competenza sulla propria scheda del personaggio. 
+Il bonus di competenza non pub essere aggiunto a un 
+singolo tiro del dado o a un qualsiasi altro numero più di 
+una volta. In certe occasioni il bonus di competenza p4b 
+essere modificato (per esempio raddoppiato o dimezzato) 
+prima di essere applicato. Anche se una circostanza 
+suggerisce che il bonus di competenza possa essere 
+applicato più di una volta allo stesso tiro o che debba 
+essere moltiplicato più di una volta, esso viene comunque 
+aggiunto, moltiplicato o dimezzato soltanto una volta. 
+CAPITOLO I J GUIDA AllA CREAZIONE. DEL PHRSONACGIO 
+LA CREAZIONE DI BRUENOR, PASSO 2 
+Fabio immagina Bruenor che parte alla carica brandendo 
+la sua ascia, con un corno del suo elmo spezzato per un 
+colpo ricevuto. Decide che Bruenor sarà un guerriero e 
+annota le competenze e i privilegi di classe dcl t • livello da 
+guerriero sulla sua scheda del personaggio. 
+In qualità di guerriero di r livello, Bruenor possiede 
+I Dado Vita (un dlO) e parte con un ammontare di punti 
+ferita pari a 10 +il suo modificatore di Costituzione. Fabio 
+annota questi valori e trascrive il numero finale dopo avere 
+determinato il punteggio di Costituzione di Bruenor (vedi il 
+passo 3). Inoltre Fabio annota il bonus di competenza per 
+un personaggio di l9 livello, che è pari a +2. 
+3. DETERMINARE I PUNTEGGI DI 
+CARATTERISTICA 
+La maggior parte delle azioni che il personaggio intraprende 
+nel gioco dipende daJle sue sei caratteristiche: Forza, 
+_ 
+Destrezza, Costituzione, Intelligenza, Saggezza e Carisma. 
+RIASSUNTO DEI PUNTEGGI DI CARATTERISTICA 
+Forza 
+Misura: Doti atletiche innate, potenza fisica 
+Importante per: Barbaro, guerriero, paladino 
+Incrementi razziali: 
+Dragonide (+2) 
+Mezzorco (+2) 
+Destrezza 
+Nano delle montagne (+2) 
+Umano (+1) 
+Misura: Agilità fisica, riflessi, equilibrìo, prontezza 
+Importante per: Ladro, monaco, ranger 
+Incrementi razziali: 
+Elfo (+2) 
+Gnomo delle foreste (+l) 
+CostltuzJone 
+Halfiing (+2) 
+Umano (+1) 
+Misuro: Salute, resistenza fisica, energia vitale 
+Importante per: Tutti 
+Incrementi razziali: 
+Gnomo delle rocce (+1) 
+Halfling tozzo (+1) 
+Mezzorco {+ 1) 
+lntelllpnza 
+Nano (+2) 
+Umano (+1} 
+Misura: Acume mentale, memoria, doti analitiche 
+Importante per: Mago 
+Incrementi razziali: 
+Elfo alto (+1) 
+Gnomo (+2) 
+Sagezza 
+TieRing (+1) 
+Umano (+1) 
+Misura: Consapevolezza, intuizione, lucidità 
+Importante per: Chierico, druido 
+Incrementi razziali: 
+Elfo dei boschi (+1) 
+Nano delle colline (+1) 
+Carisma 
+Umano (+1} 
+Misura: Fiducia in se stesso, eloquenza, autorità 
+Importante per: Bardo, stregone, warlock 
+Incrementi razziali: 
+Dragonide (+1) 
+Drow (+1) 
+Halfling piedelesto (+t) 
+Mezzelfo {+2) 
+Tiefling (+2) 
+Umano (+1) 
+. 
+ratteristica è associato un punteggio, che il giocatore 
+Aogmca 
+. 
+notare sulla sua scheda del personaggio. 
+deVe an . caratteristiche e il loro uso nel gioco sono descritte 
+Le sei 
+· 
+d · p 
+t 
+• d' 
+•tolo 7. La tabella "Riassunto e1 
+un egg1 1 
+nel ca
+tP'ra'stica" fornisce una rapida visione d'insieme delle 
+Carat e 
+· 
+· 
+d 11 
+• . h 
+l'tà misurate da ogni caratter1st1ca, e e caratter1st1c e 
+,ua 1 
+entate da ogni razza e delle classi che considerano 
+ancrem 
+. 
+I 
+. 
+t 
+t 
+· 
+aratteristica part1co armente impor an e. 
+ogi e 
+giocatore genera i sei punteggi di caratteristic9 del 
+n 
+ersonaggio casualmente: tira quattro dadi a 6 fa
+.
+âce e 
+suo P 
+. 
+. 
+1 
+. .. 
+1 
+. 
+I'. 1. d' 
+t 
+ta il totale dea tre r1su tah p1u a ti su un 1og 10 
+1 car a, 
+anno 
+. 
+1 
+· 
+d d 
+. 
+tendo l'operazione altre cmque vo te m mo o a avere 
+nj
+e
+numeri. Se vuole risparmiare tempo o non gli piace l'idea 
+se• 
+. d' 
+. . 
+I 
+I 
+b 
+di determinare i punteig1 1 carhtterisllca casua men e, pu 
+· vece usare i seguenti punteggi: 15, 14, 13, 12, 10, 8. 
+tn 
+d . 
+. 
+. 
+. 
+Quindi il giocatore pren e 1 sei numert e trascrive ognuno 
+di essi accanto a una delle sei caratteristiche del suo 
+ersonaggio, assegnando quei punteggi a Forza, Destrezza, 
+ostituzione, Intelligenza, Saggezza e Carisma. Fatto 
+questo, applica gli eventuali cambiamenti ai suoi punteggi di 
+caratteristica come risultato della razza che ha scelto. 
+Dopo avere assegnato i punteggi di caratteristica, si 
+calcolano i modificatori di caratteristica del personaggio 
+usando la tabella "Punteggi di Caratteristica e Modificatori". 
+Per determinare un modificatore di caratteristica senza 
+consultare la tabella è sufficiente sottrarre 10 dal punteggio 
+di caratteristica e dividere il risultato per 2 (arrotondando 
+per difetto). Ogni modificatore va annotalo accanto alla 
+relativa caratteristica del personaggio. 
+LA CREAZIONE DI BRUENOR, PASSO 3 
+Fabio decide di usare la serie di punteggi standard (15, 14, 
+13, 12, 10, 8) per le caratteristiche di Bruenor. Dato cheã 
+un guerriero, assegna il suo punteggio più alto, 15, a Forza. 
+Il suo secondo miglior punteggio, 14, va a Costituzione. 
+Bruenor sarà anche un guerriero irruento, ma Fabio vuole 
+che il suo nano sia vecchio e saggio, e che sia un buon 
+capo, quindi assegna dei punteggi medi a Saggezza e 
+Carisma. Dopo avere applicato i suoi benefici razziali (che 
+incrementano di 2 la Costituzione e la Forza di Brucnor), i 
+punteggi di caratteristica e i modificatori di Bruenor sono i 
+seguenti: Forza 17 (+3), Destrezza 10 (+O), Costituzione 16 
+(+3), Intelligenza 8 (-1), Saggezza 13 (+l), Carisma 12 (+l). 
+Fabio calcola infine i punti ferita di Bruenor: 10 + il 
+sua modificatore di Costituzione di +3, per un totale di 13 
+punti ferita. 
+VARIANTE: PERSONALIZZARE I P UNTEGGI DI 
+CARATTERISTICA 
+Se il Dungeon Master lo consente, i giocatori possono 
+usare questa variante per determinare i loro punteggi di 
+caratteristica. Il metodo descritto di seguito consente a 
+un giocatore di creare un personaggio con una serie di 
+punteggi di caratteristica scelti individualmente. 
+U giocatore ha 27 punti a sua disposizione da spendere 
+nei punteggi di caratteristica. Il costo di ogni punteggio 
+è indicato nella tabella "Costo in Punti dei Punteggi di 
+Caratteristica." Per esempio, un punteggio di 14 costa 
+1 punti. Usando questo metodo, il più alto punteggio di 
+caratteristica che è possibile ottenere prima di applicare i 
+COSTO IN PUNTI DEI PUNTECiCil DI CARATTERISTICA 
+Punteggio 
+Costo 
+Punteggio 
+Costo 
+8 
+o 
+12 
+4 
+9 
+1 
+13 
+5 
+10 
+2 
+14 
+7 
+11 
+3 
+15 
+9 
+PUNTECGI DI CARATTERISTICA E MODIFICATORI 
+Punteggio 
+Modificatore 
+Punteggio 
+Modificatore 
+l 
+-5 
+16-17 
++3 
+2-3 
+-4 
+18-19 
++4 
+4-5 
+-3 
+20-21 
++S 
+6-7 
+-2 
+22-23 
++6 
+8-9 
+-1 
+24-25 
++7 
+10-11 
++O 
+26-27 
++8 
+12-13 
++1 
+28-29 
++9 
+14-15 
++2 
+30 
++10 
+benefici razziali è 15 e non è possibile avere un punteggio 
+inferiore a 8. 
+Questo metodo di determinare i punteggi di caratteristica 
+consente a un giocatore di comporre una serie di tre 
+punteggi eJevati e tre punteggi ridotti (15, 15, 15, 8, 8, 8), 
+una serie di numeri leggermente al di sopra della media 
+e pressoché uguali (13, 13, 13, 12, 12, 12) o una qualsiasi 
+serie di numeri compresa tra questi estremi. 
+4. DESCRIZIONE DEL PERSONAGGIO_ 
+-
+Una volta determinati gli aspetti basilari di un personaggio 
+in termini di gioco, è ora il momento di definirlo come 
+individuo. Un personaggio ha bisogno di un nome, e il 
+giocatore dovrà dedicare qualche minuto anche a pensare 
+che aspetto ha e come si comporta a grandi linee. 
+Usando le infonnazioni nel capitolo 4, "Personalità 
+e Background", un giocatore può definire l'aspetto e la 
+personalità del suo personaggio. Sceglierà il suo allineamento 
+(vale a dire la bussola morale che guida le sue decisioni) e 
+i suoi Ideali. Il capitolo 4 aiuta anche a definire ciò a cui il 
+personaggio tiene di più, vale a dire i suoi legami, e i difetti che 
+in certe occasioni potrebbero ostacolare i suoi srorzi. 
+Il background rivela da dove viene il personaggio, qual era 
+la sua occupazione originale e il suo ruolo nel mondo di D&D. 
+Il DM potrebbe fornire dei background aggiuntivi oltre a 
+quelli inclusi nel capitolo 4 e potrebbe decidere di collaborare 
+con il giocatore per definire un background che si adatti con 
+maggior precisione al concetto del suo personaggio. 
+5RUENOR 
+Il background offre al personaggio un privilegio di 
+background (un beneficio generale) e una competenza in 
+due abilità; potrebbe inoltre fornire ulteriori linguaggi o 
+competenze in certi tipi di strumenti. Queste informazioni 
+vanno annotate sulla scheda del personaggio assieme alle 
+informazioni di personalità sviluppate dal giocatore. 
+CARATTERISTICHE DEL PERSONAGGIO 
+Il giocatore dovrà tenere presenti i punteggi di caratteristica 
+del personaggio e la sua razza al momento di definire il suo 
+aspetto e la sua personalità. Un personaggio molto forte e 
+dotato di un basso punteggio di Intelligenza potrebbe pensare 
+e comportarsi in modo molto diverso da un personaggio molto 
+intelligente e dotato di una Forza ridotta. 
+Per esempio, un punteggio elevato di Forza in gener& 
+corrisponde a una corporatura robusta o atletica, menĬre un 
+personaggio con un punteggio ridotto di Forza potrebbe essere 
+scheletrico o fuori forma. 
+Un personaggio con un punteggio elevato di Destrezza 
+probabilmente è snello e agile, mentre uno dotato di un 
+punteggio ridotto di Destrezza potrebbe essere goffo e 
+scoordinato o massiccio e dalle dita tozze. 
+Un personaggio con un punteggio di Costituzione elevato 
+solitamente ha un aspetto salubre, lo sguardo vivace e un modo 
+di fare energico. Un personaggio con un punteggio ridotto di 
+Costituzione potrebbe apparire malaticcio o cagionevole. 
+Un personaggio con un punteggio elevato di Intelligenza 
+potrebbe avere una mente analitica ed essere portato allo 
+studio, mentre un personaggio con un punteggio ridotto di 
+Intelfigcnza potrebbe parlare con parole semplici o avere la 
+tendenza a dimenticare i dettagli. 
+Un personaggio con un punteggio elevato di Saggezza 
+è dotato di buone capacità di giudizio, di empatia e di una 
+percezione generale di ciò che accade attorno a lui. Un 
+personaggio con un punteggio ridotto di Saggezza potrebbe 
+risultare distratto, avventato o inconsapevole. 
+Un personaggio con un punteggio elevato di Carisma 
+si mostra sicuro di sé e in genere risulta accattivante o 
+intimidatorio. Un personaggio con un punteggio ridotto di , 
+Carisma potrebbe apparire scostante, anonimo o timido. 
+LA CREAZIONE DI BRUENORt PASSO 4 
+Fabio definisce alcuni dei dettagli essenziali di Bruenor. il suo 
+nome, il suo sesso (maschile), Ja sua altezza, iJ suo peso e il suo 
+allineamento Oegale buonoi I suoi elevati punteggi di Foru e 
+Costituzione suggeriscono un corpo robusto e atJetico e il suo 
+punteggio ridotto di Intelligenza suggerisce una memoria labile. 
+Fabio decide che Bruenor proviene da una stirpe nobile, e che 
+il suo clan è stato espulso dalla sua terra natia quando Bruenor 
+era molto giovane. Crebbe lavorando come fabbro nei remoti 
+villaggi della Valle del Vento Gelido. Ma Bruenor ha un destino 
+eroico da compiere, vale a djre riconquistare la sua terra natia, 
+quindi Fabio sceglie il background dell'eroe popolare per il suo 
+nano e annota le competenze e il privilegio speciale che quel 
+background gli fornisce. 
+Fabio ha in mente una personalità molto chiara per Bruenor, 
+quindi salta i tratti della personalità suggeriti nel background 
+dell'eroe popolare, annotando invece che Bruenor è un nano 
+sensibile e compassionevole che vuole bene genuinamente ai 
+suoi amici e alleati, ma nasconde il suo cuore tenero dietro un 
+atteggiamento scorbutico e attaccabrighe. Sceglie l'ideale di 
+giustizia dalla lista fornitagli dal suo background, per specificare 
+che Bruenor crede che nessuno sia al di sopra delJa legge. 
+Data la sua storia, il legame di Bruenor è evidente: sogna di 
+riconquistare un giorno Mithral Hall, la sua terra, dal drago 
+d'ombra che mise in fuga i nani. IJ suo difetto è collegato alla 
+sua natura altruistica e sensibile: ha un debole per gli orfani e le 
+anime perdute, e tende a mostrare loro pietà anche quando non 
+sarebbe prudente farlo. 
+CAPITOLO l GUIDAALI..A CREAZIONE DF.LPBRSONAGCIO 
+5. SCEGLIERE L'E UIPAGGIAMENTO 
+La classe e il background del personaggio determinano 
+l'equipaggiamento di partenza del personaggio. che 
+include le armi, l'armatura e le altre attrezzature da 
+avventuriero. Questo equipaggiamento va annotato sulla 
+scheda del personaggio. Tutti gli oggetti di questo tipo sono 
+descritti nel capitolo 5, "Equipaggiamento". 
+Invece di ricevere l'equipaggiamento fornito dalla classe 
+e dal background, un personaggio può acquistare il suo 
+equipaggiamento di partenza. Un personaggio possiede 
+un ammontare di monete d'oro (mo) dipendente dalla 
+sua classe, indicato nel capitolo 5, che pub spendere 
+per equipaggiarsi come preferisce. Le liste dettagliate 
+dell'equipaggiamento e i relativi prezzi sono presentati in 
+quel capitolo. Se un giocatore lo desidera, il suo personaggio 
+può anche avere un oggetto insolito, senza alcun costo (vedi 
+la tabella "Oggetti Insoliti" alla fine del capitolo 5). 
+Il punteggio di Forza del personaggio pone un limite 
+alla quantità di equipaggiamento che egli è in grado di 
+trasportare. Un personaggio dovrebbe evitare di acquistare 
+equipaggiamento con un peso totale (in kg) superiore al 
+suo punteggio di Forza moltiplicato per 7,5. Il capitolo 7 
+contiene ulteriori informazioni sulla capacità di trasporto. 
+CLASSE ARMATURA 
+La Classe Armatura (CA) rappresenta l'efficacia con cui 
+il personaggio riesce a evitare di essere ferito in battaglia. 
+I fattori che possono contribuire alla CA includono 
+l'armatura indossata, lo scudo trasportato e il modificatore 
+di Destrezza del personaggio. Tuttavia, non tutti i 
+personaggi indossano armature o trasportano scudi. 
+Senza un'armatura o uno scudo, la CA di un personaggio è 
+pari a 10 + U suo modificatore di Destrezza. Se il personaggio 
+indossa un'armatura, trasporta uno scudo o fa entrambe le 
+cose, la CA deve essere calcolata usando le regole descritte 
+nel capitolo 5 e annotata sulla scheda del personaggio. 
+Un personaggio deve avere competenza nelle armature 
+e negli scudi per indossarli e usarli con efficacia; le 
+competenze nelle armature e negli scudi sono determinate 
+dalla classe. Indossare armature o trasportare scudi 
+senza avere le competenze appropriate comporta delle 
+limitazionit come spiegato nel capitolo 5. 
+Alcuni incantesimi e privilegi di classe offrono a un 
+personaggio un modo diverso per calcolare la sua CA. Se il 
+personaggio possiede vari privilegi che gli permettono di 
+calcolare la sua CA in modi diversi, è lui a scegliere quale usare. 
+ARMI 
+Per ogni arma impugnata dal personaggio è necessario 
+calcolare il modificatore da usare quando il personaggio 
+attacca con quell'arma e i danni da inftiggere quando l'arma 
+colpisce il bersaglio. 
+. Quando un personaggio effettua un attacco con un'arma, 
+tira un d20 e aggiunge al risultato del tiro il suo bonus di 
+competenza (ma solo se ha competenza in quell'arma) e il 
+modificatore di caratteristica appropriato. 
+• Nel caso di un attacco con un'arma da mischia, il 
+personaggio usa il suo modificatore di Forza per i tiri per 
+colpire e i tiri per i danni. Un'arma dotata della proprietà 
+accurata, come uno stocco, può invece usare il modificatore 
+di Destrezza del personaggio. 
+• Nel caso di un attacco con un'arma a distanza, il 
+personaggio usa il suo modificatore di Destrezza per i tiri 
+per colpire e i tiri per i danni. Un'arma dotata della proprietà 
+da lancio. come un'ascia, può invece usare il modificatore di 
+Forza del personaggio. 
+NTo 
+-­
+tinano 
+che 
+ra 
+> SUila 
+jpo son0 
+ïlasse 
+Uo 
+rle 
+are 
+L CREAZIONE DI BRUENOR, PASSO 5 
+. trascrive l'equipaggiamento di partenza previsto per 
+Fa 110 
+se del guerriero e i1 background dell'eroe popolare. 
+la e as 
+d. 
+. 
+1 d 
+d' 
+11 
+equipaggiamento 
+1 partenza mc u e una cotta 
+1 
+suo 
+d 
+h . 
+. 
+r. 
+• 
+B 
+rf1· 8 e uno scu o, e e insieme 1ormscono a 
+ruenor una 
+mal!!rt 1 
+• 
+18 
+OJasse Armatura part a 
+• 
+Come armi per Bruenor. Fabio sceglie un•ascia da battaglia 
+due asce. La sua ascia da battaglia è un•arma da mischia. 
+e indi Bruenor usa il suo modificatore di Forza per gli attacchi 
+danni di quetrarma. Il suo bonus di attacco è pari al suo 
+ðificatore di Forza (+3) più il suo bonus di competenza 
+(+2) per un totale di +5. L'ascia da battaglia infligge ld8 danni 
+taglienti, e quando Bruenor colpisce un bersaglio aggiunñe il 
+suo modificatore di Forza ai danni che infligge, per un totale di 
+ld8 + 3 danni taglienti. Quando lancia un'ascia. Bruenor'usa 
+lo stesso bonus di attacco (le asce. in quanto armi da lancio, 
+usano la Forza per gli attacchi e i danni) e l'arma infligge ld6 + 
+3 danni taglienti quando colpisce. 
+6. INCONTRARE GLI ALTRI 
+La maggior parte dei personaggi di D&D non lavora da 
+sola. Ogni personaggio svolge un ruolo all'interno di un 
+gruppo, una banda di avventurieri che collaborano tra loro 
+per raggiungere un obiettivo comune. li Javoro di squadra 
+e la collaborazione aumentano notevolmente le probabilità 
+del gruppo di sopravvivere ai molti pericoli dei mondi di 
+OUNGEONS & DRAGONS. Parlando con gli altri giocatori e 
+con il DM, il giocatore dovrà decidere se il suo personaggio 
+conosce gli altri, come si sono incontrati e che genere di 
+imprese il gruppo potrebbe intraprendere. 
+OLTRE IL 1 o LIVELLO 
+Man mano che il personaggio prende parte alle avventure 
+e supera nuove sfide, accumula esperienza. rappresentata 
+dai punti esperienza. Quando un personaggio raggiunge 
+uno specifico totale in punti esperienza, le sue capacità 
+. 
+sono soggette a un avanzamento. Questo avanzamento è 
+chiamato acquisire un livello. 
+Quando un personaggio acquisisce un livello, la sua classe 
+spesso gli conferisce dei privilegi aggiuntivi, come descritto 
+in dettaglio nella sua descrizione. Alcuni di questi privilegi 
+consentono al personaggio di aumentare i suoi punteggi di 
+caratteristica, aumentando due punteggi di 1 punto a testa 
+o aumentando un punteggio di 2 punti. Un punteggio di 
+caratteristica non pub mai aumentare a più di 20. Inoltre. ogni 
+bonus di competenza del personaggio aumenta a certi livem. 
+Ogni volta che il personaggio acquisisce un livello, 
+ottiene 1 Dado Vita aggiuntivo. Il personaggio tira quel 
+Dado Vita. somma il modificatore di Costituzione al 
+risultato del tiro e aggiunge il totale al suo massimo 
+dei punti ferita. In alternativa. il personaggio pub usare 
+il valore fisso indicato nella sezione della sua classe, 
+corrispondente al risultato medio del tiro del dado 
+(arrotondato per eccesso). 
+Quando il modificatore di Costituzione del personaggio 
+aumenta di 1, il suo massimo dei punti ferita aumenta di 
+1 per ogni livello da lui acquisito. Per esempio, quando 
+Bruenor giunge an•a• Jivello come guerriero. il suo 
+Punteggio di Costituzione aumenta da 17 a 181 quindi il suo 
+modificatore di Costituzione aumenta da +3 a +4. Il suo 
+massimo dei punti ferita aumenta quindi di 8. 
+. La tabella "Avanzamento dei Personaggi" riassume 
+l_PE di cui un personaggio necessita per avanzare di 
+hvello a partire dal 1° Jivello fino ad arrivare al 20" e il 
+bonus di competenza di un personaggio di quel livello. La 
+descrizione di ogni classe indica quali altri miglioramenti 
+un personaggio ottiene a ogni livello. 
+RANGHI DI GIOCO 
+La colorazione della tabella "Avanzamento dei Personaggi" 
+mostra quattro ranghi di gioco. Ai ranghi non è associata 
+alcuna regola in particolare: sono semplicemente una 
+descrizione generale di come cambia l'esperienza di gioco 
+man mano che i personaggi acquisiscono livelli. 
+Al primo rango (livelli 1-4). i personaggi sono a tutti 
+gli effetti degli apprendisti avventurieri. Stanno ancora 
+imparando a usare i privilegi che faranno di loro dei 
+membri di una determinata classe e devono fare le scelte 
+principali che caratterizzeranno quella classe man 
+mano che avanzano di livello (per esempio scegliendo la 
+Tradizione Arcana di un mago o l'Archetipo Marziale di un 
+guerriero). Le minacce che affrontano sono relativamente 
+modeste e in genere costituiscono un pericolo per le 
+fattorie o i villaggi della zona. 
+Al secondo rango (livelli 5-10) i personaggi iniziano a 
+farsi valere. Molti incantatori accedono agli incantesimi di 3• 
+livello all'inizio di questo rango, varcando una nuova soglia 
+di potenza magica grazie a incantesimi come palla di fuoco e 
+fulmine. A questo rango. molte classi che fanno uso di armi 
+ottengono la capacità di sferrare più attacchi nel corso di un 
+round. I personaggi sono diventati importanti e affrontano 
+pericoli che minacciano città e regni. 
+Al terzo rango (livelli 11-16), i personaggi hanno 
+raggiunto un livello di potenza che li distingue dalla 
+popolazione ordinaria e li rende speciali anche presso gli 
+altri avventurieri. All'l 14 livello. molti incantatori accedono 
+agli incantesimi di 6• livello. che possono creare effetti in 
+precedenza inaccessibili ai personaggi giocanti. GJi altri 
+personaggi ottengono dei privilegi che consentono loro di 
+sferrare più attacchi o di ottenere effetti spettacolari con 
+quegli attacchi. Questi potenti avventurieri affrontano spesso 
+minacce che mettono in pericolo regioni e continenti interi. 
+Al quarto rango (livelli 17-20), i personaggi raggiungono 
+il culmine dei loro privilegi di classe e diventano a 
+loro volta dei veri e propri archetipi di eroismo (o di 
+scelleratezza). Il destino del mondo o addirittura l'ordine 
+fondante del multiverso potrebbe dipendere dall'esito delle 
+loro avventure. 
+AVANZAMENTO DEI PERSONACiCI 
+Punti Esperienza 
+Livello 
+Bonus di Competenza 
+o 
+1 
++2 
+300 
+2 
++2 
+900 
+3 
++2 
+2.700 
+4 
++2 
+6.500 
+s 
++3 
+14.000 
+6 
++3 
+23.000 
+7 
++3 
+34.000 
+8 
++3 
+48.000 
+9 
++4 
+64.000 
+10 
++4 
+85.000 
+11 
++4 
+100.000 
+12 
++4 
+120.000 
+13 
++S 
+140.000 
+14 
++S 
+165.000 
+15 
++5 
+195.000 
+16 
++5 
+225.000 
+17 
++6 
+265.000 
+18 
++6 
+305.000 
+19 
++6 
+355.000 
+20 
++6 
+CAPITOLO l I GUIDA ALLA CREAZIONE DEL PERSONAGGIO 
+CAPITOLO 2: RAZZE 
+NA VISITA A UNA DELLE ORANDI ctrrA DEI MONDI 
+di DUNGEONS & DRAGONS (Waterdeep, la Città 
+Libera di Greyhawk o perfino la prodigiosa 
+Sigil, la Città delle Porte) può lasciare il 
+viaggiatore a bocca aperta. Per le strade 
+riverbera il brusio di voci che parlano infinite 
+lingue diverse, e gli odori di piatti cucinati in 
+dozzine di stili differenti si mescolano a quelli 
+delle vie affollate e delle scarse condizioni igieniche. 
+Gli edifici cittadini sfoggiano una frastornante miriade 
+di tonalità e stili architettonici, a rappresentanza di mirle 
+razze diverse, dai minuscoli halfting ai robusti nani, ar 
+maestosi e magnifici elfi, alternati agli stili delle etnie 
+umane di ogni genere. 
+In mezzo ai membri delle razze più comuni spiccano 
+altri soggetti più esotici: a pochi passi, un massiccio 
+dragonide si ra strada con forza tra 1a folla, mentre più 
+lontano un tiefling si nasconde tra le ombre di un vicolo, 
+con una luce negli occhi che non promette nulla di buono. 
+Un gruppo di gnomi scoppia a ridere quando uno di loro 
+attiva un ingegnoso giocattolo di legno semovente. Mezzelfi 
+e mezzorchi vivono e lavorano a fianco degli umani, pur 
+sapendo di non appartenere fino in fondo a nessuna delle 
+razze dei loro genitori. E più in fondo, tenendosi ben 
+lontano dalla luce del sole, un drow solitario fuggito dalle 
+cavernose distese dell'Underdark cerca di conquistarsi un 
+posto in un mondo che teme la sua razza. 
+SCEGLIERE UNA RAZZA 
+Gli umani sono la razza più comune nei mondi di D&D, ma 
+vivono e lavorano a fianco di elfi, halfling, nani e molte altre 
+specie fantastiche. Ogni personaggio di D&D appartiene a 
+uno di questi popoli. 
+Non tutte le razze intelligenti del multiverso sono adatte 
+a un avventuriero controllato da un giocatore. Gli elfi, gli 
+halfling, i nani e gli umani sono le razze più comuni da 
+cui possono emergere gli avventurieri che compongono 
+i gruppi più tipici. Gli avventurieri dragonidi, gnomi, 
+mezzelfi, mezzorchi e tiefling sono meno comuni. Anche gli 
+avventurieri drow, una sottorazza degli elfi, sono insoliti. 
+La scelta della razza influenza molti aspetti diversi di un 
+personaggio e stabilisce alcune qualità fondamentali che 
+permarranno per tutta la sua carriera da avventuriero. Al 
+momento di prendere questa decisione, un giocatore farà 
+bene a tenere presente il tipo di personaggio che desidera 
+giocare. Per esempio, un halfling può essere un'ottima 
+scelta per un ladro infido, un nano può essere un guerriero 
+tenace e un elfo può essere un maestro nell'uso della 
+magia arcana. 
+La razza influenza non solo i punteggi di caratteristica e 
+i tratti di un personaggio, ma fornisce anche alcuni spunti 
+narrativi di interpretazione. La descrizione di ogni razza 
+in questo capitolo include le informazioni necessarie per 
+interpretare un personaggio di quella razza, tra cui la 
+personalità, l'aspetto fisico, i tratti sociali e le tendenze di 
+allineamento razziale. Questi dettagli sono suggerimenti 
+che aiutano il giocatore a riflettere sul suo personaggio; 
+un avventuriero può anche allontanarsi drasticamente 
+da quella che è considerata la norma per la sua razza. 
+Vale la pena di fermarsi a riflettere sul perché il proprio 
+personaggio è diverso: anche questo è un modo utile per 
+sviluppare il suo background e la sua personalità. 
+TRATTI RAZZIALI 
+La descrizione di ogni razza include i tratti razziali considerati 
+comuni presso i membri di quella razza. Le voci seguenti 
+compaiono tra i tratti della maggior parte delle razze. 
+INCREMENTO DEI PUNTEGGI DI 
+CARATTERISTICA 
+Ogni razza incrementa uno o più punteggi di caratteristica 
+di un personaggio. 
+ETÀ 
+Questa voce indica l'età a cui un membro di quella razza 
+è considerato un adulto, nonché la durata media della 
+vita di quella razza. Queste informazioni possono aiutare 
+un giocatore a decidere che età avrà il suo personaggio 
+all•inizio del gioco. È possibile scegliere qualsiasi età 
+per il proprio personaggio, cosa che potrebbe spiegare 
+alcuni dei suoi punteggi di caratteristica. Per esempio, chi 
+interpreta un personaggio molto giovane o molto vecchio 
+potrebbe spiegare tramite l'età un punteggio di Forza o 
+di Costituzione particolarmente basso; per contro, un'età 
+avanzata potrebbe giustificare un punteggio di Intelligenza 
+o Saggezza particolarmente alto. 
+ALLINEAMENTO 
+La maggior parte dei membri di una razza tende ad aderire 
+a certi allineamenti, come descritto in questa voce. Questi 
+allineamenti non sono vincolanti per i personaggi giocanti, 
+ma un giocatore dovrebbe riflettere sul perché, ad esempio, il 
+suo nano sia caotico in opposizione alla rigida società legale 
+dei nani, al fine di definire meglio il proprio personaggio. 
+TAGLIA 
+I personaggi della maggior parte delle razze sono di taglia 
+Media, una categoria di taglia che include le creature di 
+altezza tra gli 1,2 e i 2.4 metri circa. I membri di alcune razze 
+sono di taglia Piccola (alti tra i 60 e i 120 cm), il che significa 
+che alcune regole del gioco avranno un effetto diverso su di 
+loro. La più importante di queste prevede che i personaggi di 
+taglia Piccola abbiano difficoltà a impugnare le anni pesanti, 
+come spiegato nel capitolo 5, "Equipaggiamento". 
+VELOCITÀ 
+La velocità determina quali distanze un personaggio può 
+coprire quando viaggia {capitolo 81 "All'Avventura") e in 
+combattimento {capitolo 9, "Combattimento"). 
+LINGUAGGI 
+In virtù della razza di appartenenza, un personaggio è in 
+grado di parlare, leggere e scrivere in certe lingue. 
+Il capitolo 4, "Personalità e Background", elenca i linguaggi 
+più comuni del multiverso di D&D. 
+SOTTORAZZE 
+Alcune razze includono delle sottorazze. I membri di una 
+sottorazza possiedono i tratti della razza generale di 
+appartenenza in aggiunta a quelli specificati per la loro 
+sottorazza. I rapporti tra le varie sottorazze possono variare 
+drasticamente da una razza all'altra e da un mondo all'altro. 
+Nell'ambientazione di Dragonlance, per esempio, i nani detle 
+montagne e i nani delle colline vivono assieme come diversi 
+clan di uno stesso popolo, mentre in Forgotten Realms 
+vivono in regni separati e distanti l'uno dall'altro e si fanno 
+chiamare rispettivamente nani dorati e nani degli scudi. 
+CAPl'T'OLO 2 I RAZZE 
+17 
+18 
+ELFO 
+"NON AVREI MAI IMMAGINATO CHE POTESSE ESISTERE 
+una tale bellezza" mormorò Goldmoon. Quel giorno la 
+marcia era stata dura, ma la ricompensa che li attendeva 
+a destinazione superava ogni loro sogno. I compagni 
+si trovavano in cima a un'alta rupe che dominava la 
+favoleggiata città di Qualinost. 
+Quattro esili guglie in marmo candido decorato d'argento 
+si innal2;avano agli angoli della città simili a fusi lucenti. 
+Eleganti arcate univano una guglia all'altra svettando 
+nell'aria. Erette dagli antichi metallurghi nanici, erano 
+abbastanza solide da sostenere il peso di un esercito, eppure 
+sembravano talmente delicate da far credere che un solo 
+uccello, posandosi su di esse, avrebbe potuto sbilanciarle. 
+Quegli archi scintillanti erano l'unico confine visibile della 
+città: Qualinost non era cinta da mura. La città elfica 
+accoglieva la foresta circostante a braccia aperte. 
+=Margaret Weis & Tracy Hickman, 
+Dragons of Autumn Twilight 
+Gli elfi sono un popolo magico dalla grazia ultraterrena: 
+pur vivendo nel mondo, non ne fanno parte completamente. 
+Vivono in luoghi di bellezza eterea, al centro di foreste 
+millenarie o all'interno di svettanti torri argentate, 
+risplendenti di luce fatata, dove l'aria riverbera di dolci 
+melodie e la brezza porta soavi fragranze. Gli elfi amano 
+la natura e la magia, l'arte e l'artigianato, la musica e la 
+poesia, e tutto ciò che di buono esiste al mondo. 
+SNELLI E AGGRAZIATI 
+La loro grazia ultraterrena e i loro lineamenti delicati 
+rendono gli elfi irresistibilmente attraenti, sia agli occhi 
+degli umani, sia a quelli di molte altre razze. In genere gli 
+elfi sono leggermente più bassi degli umani: la loro altezza 
+CAPITOLO 2 I RAZZE 
+DRnn Oo'UROEN 
+può variare da poco meno di 1,5 a poco più di 1,8 metri. 
+Sono di corporatura più snella rispetto agli umani e il 
+loro peso varia dai 50 ai 70 kg o poco più. I maschi e le 
+femmine hanno più o meno la stessa altezza; i primi sono 
+leggermente più pesanti delle seconde. 
+Il colorito degli elfi si presenta in un numero maggiore 
+di tonalità rispetto a quello umano e può includere tonalità 
+ramate. bronzee o azzurro-biancastre; i Joro capelli 
+possono essere verdi o blu e i loro occhi sono simili a 
+pozze di oro o di argento liquido. Gli elfi hanno pochissima 
+peluria sul corpo e i loro visi sono perfettamente glabri. 
+Prediligono abiti dal taglio raffinato e dai colori vivaci, e 
+indossano monili semplici ma di fattura squisita. 
+UNO SGUARDO SENZA TEMPO 
+Un elfo pub vivere anche più di 700 anni e questa longevità 
+gli conferisce una prospettiva più ampia su eventi che 
+turberebbero molte razze dalla vita più breve. Tendono a 
+reagire in modo più divertito che eccitato, a comportarsi più 
+con curiosità che con bramosia e a restare imperturbabili 
+e distaccati di fronte agli insignificanti casi della vita. 
+Quando perseguono un obiettivo, tuttavia, che si tratti di 
+un'avventura, di una missione o dello studio di un'abilità 
+o di un'arte, gli elfi si dimostrano costanti e instancabili. 
+Impiegano molto tempo a bollare qualcuno come un 
+amico o un nemico, e ancora più tempo a dimenticare 
+tale giudizio. Rispondono agli attacchi meschini con il 
+disprezzo e a quelli più seri con la vendetta. 
+Di fronte al pericolo, gli elfi si dimostrano ftessibili come 
+i rami di un giovane albero e cercano sempre di affidarsi , 
+alla diplomazia e al compromesso per risolvere i conflitti, 
+prima di ricorrere alla violenza. Di fronte a un'intrusione, 
+a volte gli elfi scelgono di ritirarsi nelle foreste, convinti 
+che basti aspettare che gli invasori se ne vadano. Quando 
+entrare in azione diventa tuttavia necessario, rivelano 
+una devastante perizia militare e danno sfoggio di grande 
+maestria nell'uso della spada, dell'arco e della strategia. 
+REGNI NASCOSTI NELLE FORESTE 
+La maggior parte degli elfi vive nelle foreste, in piccoli 
+villaggi nascosti tra gli alberi. Gli elfi vanno a caccia di 
+selvaggina, raccolgono bacche, runghi e radici, e coltivano 
+ortaggi. Grazie alle loro abilità e alle loro arti magiche sono 
+in grado di sopravvivere senza dover disboscare o dissodare 
+la terra. Sono ottimi artigiani e confezionano abiti e oggetti 
+d'arte finemente lavorati. I loro contatti con gli stranieri 
+sono in genere limitati, anche se qualche elfo si guadagna da 
+vivere agiatamente vendendo oggetti d'artigianato in cambio 
+di metalli (che gli elfi non amano estrarre). 
+Gli elfi incontrati fuori dalle loro terre sono generalmente 
+musicanti artisti o sapienti girovaghi. I nobili umani 
+entrano spesso in competizione per assicurarsi i servigi 
+di un precettore elfico che istruisca i loro rampolli nell'uso 
+della spada o nella magia. 
+ESPLORAZIONE E AVVENTURA 
+Ciò che spinge gli elfi ad andare all'avventura è la loro sete 
+di viaggiare. Grazie alla loro longevità possono godersi 
+molti secoli di esplorazioni e scoperte. Non amano i ritmi 
+della società umana, che pur caratterizzata da una sua 
+stabilità nella vita di tutti i giorni, cambia costantemente 
+nell'arco dei decenni, quindi si dedicano a quelle carriere 
+che permettono loro di muoversi liberamente, al ritmo che 
+prediligono. Gli elfi amano anche affinare la loro perizia 
+militare o accrescere i propri poteri magici, e la vita 
+dell'avventuriero permette loro di ottenere tutto questo. 
+Alcuni potrebbero unirsi a un gruppo di ribelli che lotta 
+contro un oppressore, mentre altri potrebbero ergersi a 
+campioni di una nobile causa. 
+NOMI DEGLI ELFI 
+Gli elfi vengono considerati bambini finché non si 
+dichiarano adulti, cosa che avviene più o meno intorno 
+al loro centesimo compleanno. Prima di allora vengono 
+chiamati con il loro nome da bambino. 
+Quando si dichiara adulto, un elfo sceglie anche un nome 
+da adulto, anche se può capitare che chi lo conosceva 
+da giovane continui a chiamarlo con il suo nome da 
+bambino. Tutti i nomi elfici da adulto sono creazioni 
+uniche, sebbene alcuni possano ricordare i nomi di figure 
+rispettate o di altri familiari. Sono poche le differenze tra 
+i nomi femminili e quelli maschili; gli esempi forniti di 
+seguito rappresentano solo una tendenza generale. Oltre 
+ai suddetti nomi, ogni elfo possiede anche un nome di 
+famiglia, in genere formato dalla combinazione di altre 
+parole elfiche-. Alcuni elfi, in occasione dei loro viaggi tra 
+gli umani, traducono il nome familiare in Comune, mentre 
+altri mantengono la versione in Elfico. 
+Nomi da Bambino: Ara, Bryn, Del, Eryn, Faen, Innil, 
+Lael, Mella, Naeris, Naill, Phann, Rael, Rinn, Sai, 
+Syllin, Thia, Vali 
+I<) 
+20 
+Anche se a volte possono apparire scostanti, gli elfr gener.1lmente 
+sono gentili anche neJ confronti di coloro che non si dimostrano 
+all'altezza delle loro elevate aspettative ... cosa che vale per quasi 
+tutti i non elfi. Nonostante questo, gli elfi sono in grado di trovare 
+quakosa di buono pressoché In chiunque. 
+Hotfllnr. "Gli halfllng apprezzano i piaceri semplici, una 
+qualità tutt'altro che disprezzabile. Sono creature gentili, si 
+prendono cura l'uno dell'altro e si dedicano ai loro giardini, ma 
+hanno dimostrato che quando serve possono essere più tenaci 
+di  quanto sembri." 
+-
+Noni. "I nani sono creature rozze, goffe e noiose. O'al!ra 
+parte, le loro carenze nell'umorismo, nella raffinatezza e 
+nell'educaone sono compensate dal loro coraggio. E devo 
+ammettere che i migliori tra i loro fabbri producono oggetti la cui 
+bellezza rJvalega con que!la degli oggetti elfici." 
+Umani. "Tutta quella fretta, quell'ambizione e la 
+determinazione di realizzare qualcosa prima che la loro breve 
+vita giunga al termine 
+.•. come sembrano futili, a volte, tutti gli 
+sforzi umani. Ma basta guardare a cib che hanno realizzato, 
+e non si pub non provare ammirazione per loro. Se solo 
+imparassero a rallentare e ad apprezzare I dettagli..." 
+,. 
+Nomi Maschili da Adulto: Adran, Aelar, Aramil, Arannis, 
+Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, 
+Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, 
+Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, 
+Rolen, Soveli s, Thamior, Tharivol, Theren, Varis 
+Nomi Femminili da Adulto: Adrie, Althaea. Anastrianna, 
+Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, 
+Enna, Felosial, lelenia,Jelenneth, Keyleth, Leshanna, 
+Lia, MerieJe, MiaJee, Naivara, QueJenna, Quillathe, 
+Sariel, Shanairra, Sbava, Silaqui, Theirastra, Thia, 
+Vadania, VaJanthe, Xanaphia 
+Nomi di Famiglia {traduzioni più comuni): Amakiir 
+. 
+(Gemflower "Fiore di Gemma"), Amastacia (Starftower 
+"Fiore di Stella"), Galanodel (Moonwhisper .. Sussurro di 
+Luna"), Holimion (Diamonddew "Rugiada Cristallina"}, 
+llphelkiir (GembJossom "Bocciolo Prezioso"), Liadon 
+(Silverfrond "Fronda d'Argento"), Meliamne (Oakenheel 
+"Pie' di Quercia"}, Nailo {Nightbreeze "Brezza 
+Notturna"), Siannodel (Moonbrook "Ruscello di Luna"), 
+Xiloscient (Goldpetal "Petalo d'Oro") 
+TRATTI DEGLI ELFI 
+Un personaggio elfo è dotato di una vasta gamma di capacità 
+naturali, affinate dal suo popolo nel corso di interi millenni. 
+Incremento del Punte,Ai di Caratteristica. Il punteggio 
+di Destrezza di un elfo aumenta di 2. 
+Età. Anche se gli elfi raggiungono la maturità fisica più 
+o meno alla stessa età degli umani, la visione elfica della 
+maturità trascende l'aspetto puramente biologico e comprende 
+un'esperienza più ampia del mondo. Gli elfi generalmente si 
+dichiarano adulti e assumono il loro nome da adulto intorno 
+all'età di 100 anni, e possono vivere fino a 750 anni. 
+Allineamento. Gli elfi amano la libertà, la varietà e 
+l'espressione individuale, cosa che li avvicina agli aspetti 
+più positivi del caos. Apprezzano e proteggono la libertà 
+degli altri quanto la propria, e per buona parte tendono 
+al bene piuttosto che al male. I drow costituiscono 
+un'eccezione: il loro esilio nell'Underdark li ha resi malevoli 
+e pericolosi. I drow tendono per la maggior parte al male 
+piuttosto che al bene. 
+Ta,lla. Un elfo ha un'altezza che va da poco meno di 1,5 
+a poco più 1,8 metri e una struttura snella. È una creatura 
+di taglia Media. 
+Velocità. La velocità base sul terreno di un elfo è di 9 metri. 
+CAPITOLO 2 I RAZZE 
+Scurovlsione. Un elfo, abituato a muoversi nella penombra 
+del sottobosco e alla luce della luna, beneficia di una vista 
+superiore nell'oscurità e nelle condizioni di luce fioca. Un elfo 
+in condizioni di luce fioca può vedere fino a 18 metri come se 
+si trovasse in condizioni di luce intensa e nell'oscurità come 
+se si trovasse in luce fioca. Nell'oscurità non è in grado di 
+discernere i colori, ma solo le tonalità di grigio. 
+Sensi Acuti. Un elfo ha competenza 
+nell'abilità Percezione. 
+RetaAAlo Fatato. Un elfo dispone di vantaggio ai tiri 
+salvezza per non essere affascinato e non può essere 
+addormentato tramite la magia. 
+Trance. Gli elfi non hanno bisogno di dormire. Anziché 
+dormire entrano per 4 ore al giorno in una proronda 
+meditazione e in uno stato semicosciente. (Il termine in 
+Comune per tale meditazione è "trance".) Durante questa 
+meditazione, l'elfo entra in una sorta di stato sognante, che in 
+realtà non è altro che una serie di esercizi mentali che anni di 
+pratica hanno reso automatici. Dopo tale periodo, l'elfo ottiene 
+gli stessi benefici di 8 ore di sonno per un umano. 
+Lin,uaAAI. Gli elfi sanno parlare, leggere e scrivere 
+in Comune e in Elfico. L'Elfico è una lingua fluida, 
+dalle tonalità sottili e dalla grammatica complessa. La 
+letteratura elfica è ricca e variegata: i loro canti e i loro 
+poemi sono celebri anche presso le altre razze. Molti bardi 
+imparano la lingua degli elfi per poter aggiungere le ballate 
+elfiche al proprio repertorio. 
+Sottorazze. Antiche divisioni in seno al popolo elfico 
+hanno prodotto tre grandi sottorazze: gli elfi alti, gli elfi 
+dei boschi e gli elfi oscuri, comunemente chiamati drow. 
+Il giocatore deve scegliere una di queste sottorazze per il 
+proprio personaggio. In alcuni mondi, questi gruppi sono 
+ulteriormente suddivisi (come gli elfi del sole e gli elfi 
+della luna in Forgotten Realms), quindi, se il giocatore 
+desidera, pub scegliere uno di quei gruppi più ristretti. 
+ELFO ALTO 
+Un elfo alto è dotato di una mente brilJante e della 
+padronanza di alcune forme basilari di magia. 
+In molti mondi di D&D esistono due tipologie 
+di elfi alti. Uno (che comprende gli elfi grigi e 
+gli elfi delle valli di Greyhawk, i Silvanesti di 
+Dragonlance e gli elfi del sole di Forgotten Realms), che si 
+considera superiore alle altre razze e anche agli altri elfi, 
+è altezzoso e si tiene a distanza da tutti gli altri. L'altro 
+tipo {che comprende gli elfi alti di Greyhawk, i Quali nesti 
+di Dragonlancc e gli elfi della luna di Forgotten Realms}, 
+è più diffuso e più amichevole, e i suoi membri si 
+mescolano più facilmente agli umani e alle altre razze. 
+Gli elfi del sole di FaerQn (chiamati anche elfi dorati 
+o elfi dell'alba) hanno la pelle color bronzo e i capelli 
+ramati, neri o biondo oro. I loro occhi sono dorati, 
+argentei o neri. Gli elfi della luna (chiamati anche elfi 
+d'argento o elfi grigi), sono molto più pallidi, hanno 
+la pelle color alabastro, a volte tendente all'azzurro. 
+Spesso hanno i capelli bianco-argentati, neri o blu, ma 
+non sono rare nemmeno le chiome di varie tonalità di 
+biondo, castano e rosso. Hanno gli occhi blu o verdi, 
+punteggiati d'oro. 
+Incremento del PunteUI di Caratteristica. Il punteggio 
+di Intelligenza di un elfo alto aumenta di 1. 
+Addestramento nelle Armi Elfiche. Un elfo alto ha 
+competenza nelle spade corte, nelle spade lunghe, negli 
+archi corti e negli archi lunghi. 
+Trucchetto. Un elfo aJto conosce un trucchetto scelto 
+dalla lista degli incantesimi da mago. La caratteristica da 
+incantatore per questo trucchetto è Intelligenza. 
+, 
+LlnAuaUio Extra. Un elfo alto sa parlare, legg¨re e 
+scrivere un linguaggio extra a sua scelta. 
+ELFO DEI BOSCHI 
+Un elfo dei boschi è dotato di sensi acuti e di un profondo 
+intuito, nonché di un passo leggero che gli consente di 
+spostarsi velocemente e silenziosamente attraverso le sue 
+foreste natie. Questa categoria di elfi include gli elfi selvaggi 
+(grugach) di Greyhawk, i Kagonesti di Dragonlance e 
+anche le razze denominate elfi dei boschi di Greyhawk e 
+Forgotten Realms. Nel FaerQn gli elfi dei boschi (chiamati 
+anche elfi selvaggi, elfi verdi o elfi delle foreste) vivono 
+isolati e diffidano di tutti i membri delle altre razze. 
+Gli elfi dei boschi tendono ad avere la pelle ramata, a volte 
+con qualche traccia di verde. I loro capelli tendono al nero o 
+al castano, ma esistono anche alcuni individui biondi o dai 
+capelli ramati. I loro occhi sono verdi, marrone o nocciola. 
+Incremento dei PunteAAi di Caratteristica. Il punteggio 
+di Saggezza di un elfo dei boschi aumenta di 1. 
+Addestramento nelle Armi Elfiche. Un elfo dei boschi 
+ha competenza nelle spade corte, nelle spadç lunghe, negli 
+archi corti e negli archi lunghi. 
+Piede Lesto. La velocità base sul terreno di un elfo dei 
+boschi aumenta a 10,5 metri. 
+Maschera della Selva. Un elfo dei boschi può tentare di 
+nascondersi alla vista altrui anche quando è leggermente 
+oscurato da fogliame, pioggia fitta, neve, foschia e altri 
+fenomeni naturali. 
+ELFO OSCURO (DROW) 
+I drow discendono da un'antica sottorazza di elfi dalla pelle 
+scura che fu esiliata dal mondo di superficie per avere seguito 
+la dea Lolth sulla via del male. Oggi i drow hanno edificato 
+una loro società nelle viscere dell'Underdark. modellata 
+sulla Via di Lolth. I drow, detti anche elfi oscuri, hanno la 
+pelle nera, simile all'ossidiana lucida, e capelli di colore 
+bianco lucente o giallo tenue. Generalmente hanno gli occhi 
+molto pallidi (talmente pallidi da sembrare a volte quasi privi 
+di pupille) o di sfumature lilla, argento, rosa, rosso e blu. 
+Tendono a essere ancora più piccoli e magri degli altri elfi. 
+Gli avventurieri drow sono rari. Un giocatore dovrà 
+consultarsi con il Dungeon Master per ottenere j) permesso 
+di interpretare un drow. 
+Incremento dei PunteA'l di Caratterlstlca. Il punteggio 
+di Carisma di un elfo oscuro aumenta di 1. 
+Scurovisione Superiore. La scurovisione di un elfo 
+oscuro arriva fino a 36 metri. 
+SensibllltA alJs Luce del Sole. Un elfo oscuro dispone 
+di svantaggio ai tiri per colpire e alle prove di Saggezza 
+(Percezione) basate sulla vista quando l'elfo in questione, il 
+bersaglio del suo attacco o l'oggetto da percepire si trovano 
+in piena luce del sole. 
+Mq/a Drow. Un elfo oscuro conosce il trucchetto luci 
+cJanzanti. Quando raggiunge il 3a livello, pub lanciare 
+l'incantesimo luminescenza una volta con questo tratto e 
+recuperare la capacità di farlo quando completa un riposo 
+lungo. Quando raggiunge iJ S- livello può lanciare l'incantesimo 
+oscurità una volta con questo tratto e recuperare la capacità 
+di farlo quando completa un riposo lungo. La caratteristica da 
+incantatore per questi incant©simi è Carisma. 
+Addestramento nelle Armi Drow. I drow hanno 
+competenza nelle spade corte, negli stocchi e nelle 
+balestre' a mano. 
+L'OSCURITÀ DEI DROW 
+Se non fosse per una ce!ebr.e eccezione, tutti i drow s.arebbero 
+universalmente disprezzati. u maggior parte della gente li 
+considera un popolo di predoni e veneratorì di demoni che vive 
+nelle profonditi deli'Underdark e ne esce solo nelle notti più bui§ 
+per saccheggiare e massacrare gli odiati abitanti di superficie. La 
+loro è una società depravata. incentrata sul culto di Lolth, la dea 
+ragno, che incoraggia ¨·omicidio e lo sterminio di intere famiglie 
+nella competizione tra I casati nobiliari per ottenere il suo favore. 
+Tuttavia esiste almeno un drow che ha voltato le spalle a queste 
+usanze. Nel mondo di Forgotten Realms, Drizzt Do'Urden, ranger 
+delfe terre settentrionali, ha dimostrato il suo valore ergendosi come 
+difensore dei deboli e degli innocenti. Dopo avere ripudiato il suo 
+retaggio e avere vagato a lungo In un mondo che lo guarda con 
+terrore e disprezzo, Drizzt è diventato un modello per quei pochi 
+drow c::he hanno deciso di seguire le sue orme, alla ricerca di una 
+vita lontana dalla società malvagia della loro patria nell'Underdark. 
+I drow crescono nella convinztone che le razze di superficie 
+siano Inferiori e siano utili solamente come fonte di schiavi. 
+I drow che sviluppano una coscienza o che si trovano obbligati 
+a collaborare con i membri delle altre razze hanno comunque 
+difficoftà a superare tale pregiudizio, specialmente se sono a loro 
+volta oggetto di odio e disprezzo. 
+HALFLING 
+L'HALFJ.JNG REGIS, UNICO DELLA SUA RAZZA PER CENTINAIA 
+di miglia in ogni direzione, mise le mani dietro la nuca e 
+si sdraiò sul soffice strato muscoso che ricopriva il tronco 
+d'albero. Regis era basso perfino per la norma della sua 
+piccola raua: alla sommità della sua chioma soffice e 
+riccioluta misurava poco più di novanta centimetri di 
+alteua, e il suo ventre era tondeggiante, un palese segno 
+della sua passione per un buon pasto, o anche per più di uno, 
+quando se ne presentava l'opportunitiJ. Il bastone ritorto che 
+usava come canna da pesca, stretto tra due dita dei piedi, 
+si protendeva sulle acque immobili del lago, riflettendosi 
+nitidamente sulla supetficie vitrea del Maer Dualdon. 
+-R.A. Salvatore, The Crystal Shard 
+La maggior parte degli halfling ambisce soltanto a godersi le 
+comodità di casa: un posto placido e tranquillo dove stabilirsi, 
+lontano dai mostri famelici e dagli scontri tra eserciti, un 
+fuoco scoppiettante, un lauto pasto, un buon vino e una buona 
+conversazione. Anche se molti halfting vivono stabilmente 
+in remote comunità rurali, altri formano bande di nomadi 
+che vivono costantemente in viaggio, attratti dalla strada e 
+dall'orizzonte infinito, impazienti di scoprire le meraviglie di 
+regioni e popoli sconosciuti. Ma anche questi nomadi in realtà 
+amano la pace, il buon cibo, il focolare e la casa, sebbene la 
+loro "casa" sia un carro che avanza sobbalzando lungo una 
+strada fangosa o una zattera che scivola lungo un fiume. 
+PICCOLI E CONCRETI 
+I minuscoli halfting riescono a sopravvivere in un 
+mondo popolato da creature più grandi di loro evitando 
+di farsi notare e, quando questo è impossibile, evitando 
+di offendere gli altri. Sono alti circa 90 cm e hanno un 
+aspetto piuttosto inoffensivo, cosa che ha consentito loro di 
+sopravvivere per secoli ai confini degli imperi e ai margini 
+delle guerre e dei conflitti politici. Tendono ad avere una 
+corporatura tarchiata e pesano tra i 20 e i 22,5 kg. 
+Gli halfting hanno una carnagione che va dall'abbronzato 
+al pallido con qualche sfumatura rossastra, e i capelli, in 
+genere ondulati, sono castani o color sabbia. I loro occhi 
+possono essere marroni o nocciola. I maschi halfling 
+sfoggiano spesso lunghe basette, mentre le barbe sono 
+rare e i baffi ancora di più. Amano indossare abiti semplici, 
+comodi e pratici e prediligono i colori vivaci. 
+La concretezza degli halfting non si applica solamente 
+ai loro abiti. Gli halff ing sono interessati soprattutto ai 
+bisogni basilari e ai piaceri più semplici, e in genere non 
+amano l'ostentazione. Anche i più abbienti tra gli halfling 
+preferiscono tenere i loro tesori chiusi a chiave in cantina 
+anziché mostrarli in giro. Hanno un vero talento per trovare 
+la soluzione più diretta a un problema e mostrano poca 
+pazienza nei confronti di chi tergiversa. 
+GENTILI E CURIOSI 
+Gli halfting sono un popolo gentile e gioioso. Apprezzano 
+i legami familiari e di amicizia quanto le comodità del 
+focolare domestico e raramente covano sogni di ricchezza 
+o di gloria. Perfino gli halfting avventurieri normalmente si 
+CAPITOLO 2 I RAZZE 
+23
+spingono nel mondo esterno per aiutare la loro comunitàt 
+per amiciziat per il piacere di viaggiare o per pura curiosità. 
+Amano scoprire cose nuovet anche se si tratta di cose 
+di poco contot come un cibo esotico o un abito dalla 
+foggia insolita. 
+Gli halfling provano facilmente compassione e non 
+sopportano di veder soffrire gli altri esseri viventi. Sono 
+generosi e condividono volentieri cib che hanno, anche in 
+tempi di magra. 
+MIMETIZZATI NELLA FOLLA -----
+Gli halfling non hanno difficoltà a inserirsi in una comunità 
+di umani, nani o elfit rendendosi utili e bene accetti. Grazie 
+alle loro doti innate di furtività e alla loro natura modesta 
+riescono quasi sempre a evitare le attenzioni indesiderate. 
+Gli halfting lavorano volentieri assieme alle altre razze e 
+si dimostrano leali nei confronti degli amici, che si tratti di 
+altri halfling o meno. Possono tuttavia rivelare una f crocia 
+inaspettata quando vedono minacciati i loro amici, la 
+famiglia o la comunità di appartenenza. 
+GIOIE RURALI 
+La maggior parte degli halfting vive in piccole e pacifiche 
+comunità composte da grandi fattorie e frutteti. È raro che 
+fondino un loro regno o perfino che accampino diritti su 
+intere regioni, accontentandosi delle loro pacifiche contee. 
+In genere non riconoscono alcuna tradizione nobiliare 
+o monarchica e preferiscono affidarsi alla guida degli 
+anziani di famiglia. Le tradizioni familiari degli halfling 
+possono sopravvivere inalterate alla nascita e alla caduta 
+degli imperi. 
+Molti halfling vivono presso altre razze, dove si 
+procurano abbondanti ricompense e comodità grazie al1a 
+loro dedizione al lavoro e al1a loro onestà. Alcune comunità 
+halfting hanno adottato uno stile di vita nomade e vivono 
+sui carri o sulle barche, vagando da un luogo all'altro senza 
+avere una fissa dimora. 
+CAPITOLO 2 I RAZZE 
+Gli halfling tentano sempre di andare d'accordo con tutti e non 
+amano le generalinazioni, specialmente se negative. 
+Elfi. "Sono bellissimi! I loro volti, la loro musica, la loro grazia e 
+tutto JI resto.  come se f'ossero usciti da un sogno meraviglioso. 
+4 Ma è impossibile capire cosa passa loro per la testa dietro tutti quei 
+sorrisi... di sicuro più di quanto diano a vedere." 
+Nani. "I nani sono amici fidati: quando ti danno la loro parola, 
+puoi star certo che la manterranno. Però perché fanno cosl fatica 
+a sorridere, almeno una volta ogni unto?" 
+Umani. "Gli umani sono molto simili a noi, sul serio. O almeno 
+alcuni di loro. Se esci dai castelli o dalle fartene e vai a parlare 
+con i contadini e i pastori, incontrerai gente alla mano e di buon 
+cuore. Non che ci sia qualcosa di sbagliato nei baroni e nei soldati, 
+bisogna ammirare la loro dedizione. E quando proteggono le loro 
+terre, proteggono anche noi." 
+, 
+OPPORTUNITÀ DI ESPLORAZIONE 
+Gli halfling generalmente scelgono di diventare 
+avventurieri per difendere la comunità, aiutare gli amici 
+o esplorare un mondo vasto e meraviglioso. Per loro, 
+più che una carriera, quella dell'avventuriero costituisce 
+untopportunità e a vo

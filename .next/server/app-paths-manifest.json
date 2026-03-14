@@ -4,6 +4,7 @@
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/api/users/route": "app/api/users/route.js",
   "/dashboard/campaigns/page": "app/dashboard/campaigns/page.js",
+  "/dashboard/characters/new/page": "app/dashboard/characters/new/page.js",
   "/dashboard/characters/page": "app/dashboard/characters/page.js",
   "/dashboard/compendium/page": "app/dashboard/compendium/page.js",
   "/dashboard/inventory/page": "app/dashboard/inventory/page.js",
