@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/dashboard/campaigns/page": "/dashboard/campaigns",
+  "/dashboard/characters/page": "/dashboard/characters",
+  "/dashboard/compendium/page": "/dashboard/compendium",
+  "/dashboard/inventory/page": "/dashboard/inventory",
+  "/dashboard/loot/page": "/dashboard/loot",
+  "/dashboard/maps/page": "/dashboard/maps",
+  "/dashboard/page": "/dashboard",
+  "/login/page": "/login",
+  "/page": "/"
+}

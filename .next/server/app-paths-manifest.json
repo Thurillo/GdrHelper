@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/dashboard/campaigns/page": "app/dashboard/campaigns/page.js",
+  "/dashboard/characters/page": "app/dashboard/characters/page.js",
+  "/dashboard/compendium/page": "app/dashboard/compendium/page.js",
+  "/dashboard/inventory/page": "app/dashboard/inventory/page.js",
+  "/dashboard/loot/page": "app/dashboard/loot/page.js",
+  "/dashboard/maps/page": "app/dashboard/maps/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js"
+}
