@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Character } from "@prisma/client";
+import type { Character, Prisma } from "@prisma/client";
 import { useEffect } from "react";
 import Link from "next/link";
 import { updateCharacterHp, deleteCharacter } from "@/app/actions/character";
@@ -28,7 +28,7 @@ function hpColor(hp: number, max: number) {
 export default function ClientCharacterView({
   characters: initialCharacters,
 }: {
-  characters: Character[];
+  characters: (Character & { race?: { name: string } | null })[];
 }) {
   const [characters, setCharacters] = useState(initialCharacters);
   const [selectedId, setSelectedId] = useState<string | null>(
@@ -125,7 +125,7 @@ export default function ClientCharacterView({
                     <div>
                       <div style={{ fontWeight: 600, fontSize: "0.9rem" }}>{c.name}</div>
                       <div style={{ fontSize: "0.75rem", color: "var(--text-secondary)", marginTop: 2 }}>
-                        {c.race || "Umanoide"} {c.charClass || "Avventuriero"} Lv.{c.level}
+                        {c.race?.name || "Umanoide"} {c.charClass || "Avventuriero"} Lv.{c.level}
                       </div>
                     </div>
                     <div style={{ textAlign: "right" }}>
@@ -158,7 +158,7 @@ export default function ClientCharacterView({
                         {selected.name}
                       </div>
                       <div style={{ display: "flex", gap: 8, marginTop: 6 }}>
-                        {selected.race && <span className="badge badge-gold">{selected.race}</span>}
+                        {selected.race?.name && <span className="badge badge-gold">{selected.race.name}</span>}
                         {selected.charClass && <span className="badge badge-purple">{selected.charClass}</span>}
                         <span className="badge badge-green">Livello {selected.level}</span>
                       </div>

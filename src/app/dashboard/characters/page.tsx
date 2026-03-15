@@ -17,6 +17,9 @@ export default async function CharactersPage() {
     where: {
       userId: session.user.id,
     },
+    include: {
+      race: true,
+    },
     orderBy: {
       createdAt: "desc"
     }
