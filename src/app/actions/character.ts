@@ -43,7 +43,6 @@ export async function createCharacter(formData: FormData) {
     data: {
       userId: session.user.id,
       name,
-      race: raceName, // human-readable name for display
       raceId: raceId || null,
       subraceId: subraceId || null,
       charClass,
