@@ -19,4 +19,5 @@ npm-debug.log*
 Thumbs.db
 
 # Temporary files
-tmp-races-classes.txt
+tmp-*.txt
+build_output*.txt
