@@ -2,6 +2,8 @@ import { createCharacter } from "@/app/actions/character";
 import Link from "next/link";
 import prisma from "@/lib/prisma";
 
+export const dynamic = "force-dynamic";
+
 export default async function NewCharacterPage() {
   // Fetch all races and their subraces from DB
   const races = await prisma.race.findMany({
