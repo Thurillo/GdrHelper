@@ -2,7 +2,10 @@
 
 import { useState } from "react";
 import type { Character } from "@prisma/client";
+import { useEffect } from "react";
 import Link from "next/link";
+import { updateCharacterHp, deleteCharacter } from "@/app/actions/character";
+import { useSocket } from "@/components/SocketProvider";
 
 function mod(score: number) {
   const m = Math.floor((score - 10) / 2);
@@ -23,13 +26,54 @@ function hpColor(hp: number, max: number) {
 }
 
 export default function ClientCharacterView({
-  characters,
+  characters: initialCharacters,
 }: {
   characters: Character[];
 }) {
+  const [characters, setCharacters] = useState(initialCharacters);
   const [selectedId, setSelectedId] = useState<string | null>(
-    characters.length > 0 ? characters[0].id : null
+    initialCharacters.length > 0 ? initialCharacters[0].id : null
   );
+
+  const { socket, isConnected } = useSocket();
+
+  useEffect(() => {
+    setCharacters(initialCharacters);
+  }, [initialCharacters]);
+
+  useEffect(() => {
+    if (!socket || !isConnected) return;
+
+    socket.emit("join-campaign", "global");
+
+    const handleHpUpdate = (data: { characterId: string; hitPoints: number }) => {
+      setCharacters((prev) =>
+        prev.map((c) => (c.id === data.characterId ? { ...c, hitPoints: data.hitPoints } : c))
+      );
+    };
+
+    socket.on("hp-updated", handleHpUpdate);
+
+    return () => {
+      socket.off("hp-updated", handleHpUpdate);
+      socket.emit("leave-campaign", "global");
+    };
+  }, [socket, isConnected]);
+
+  const handleUpdateHp = async (id: string, newHp: number, maxHp: number) => {
+    const clampedHp = Math.max(0, Math.min(maxHp, newHp));
+    
+    // Optimistic local update
+    setCharacters((prev) => prev.map((c) => (c.id === id ? { ...c, hitPoints: clampedHp } : c)));
+    
+    // Broadcast via socket
+    if (socket && isConnected) {
+      socket.emit("update-hp", { campaignId: "global", characterId: id, hitPoints: clampedHp });
+    }
+
+    // Persist to DB
+    await updateCharacterHp(id, clampedHp);
+  };
 
   const selected = characters.find((c) => c.id === selectedId);
 
@@ -121,14 +165,42 @@ export default function ClientCharacterView({
                     </div>
                     <div style={{ display: "flex", gap: 8 }}>
                       <button className="btn btn-sm btn-secondary">✏ Modifica</button>
-                      <button className="btn btn-sm btn-danger">🗑 Elimina</button>
+                      <button 
+                        className="btn btn-sm btn-danger"
+                        onClick={async () => {
+                          if (confirm("Sei sicuro di voler eliminare questo personaggio?")) {
+                            await deleteCharacter(selected.id);
+                            setSelectedId(null);
+                          }
+                        }}
+                      >
+                        🗑 Elimina
+                      </button>
                     </div>
                   </div>
 
                   {/* Combat stats */}
                   <div className="grid-3" style={{ marginBottom: 20 }}>
+                    <div className="card" style={{ textAlign: "center", padding: "16px 12px" }}>
+                      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 10, marginBottom: 4 }}>
+                        <button 
+                          onClick={() => handleUpdateHp(selected.id, selected.hitPoints - 1, selected.maxHitPoints)}
+                          className="btn btn-sm btn-danger" 
+                          style={{ padding: "0 8px", fontSize: "1.2rem" }}>-</button>
+                        <div style={{ fontSize: "1.5rem", fontWeight: 700 }}>
+                          {selected.hitPoints}/{selected.maxHitPoints}
+                        </div>
+                        <button 
+                          onClick={() => handleUpdateHp(selected.id, selected.hitPoints + 1, selected.maxHitPoints)}
+                          className="btn btn-sm btn-success" 
+                          style={{ padding: "0 8px", fontSize: "1.2rem" }}>+</button>
+                      </div>
+                      <div style={{ fontSize: "0.7rem", color: "var(--text-secondary)", marginTop: 4 }}>
+                        HP Attuali
+                      </div>
+                    </div>
+
                     {[
-                      { label: "HP Attuali", value: `${selected.hitPoints}/${selected.maxHitPoints}` },
                       { label: "Classe Armatura", value: selected.armorClass },
                       { label: "Iniziativa", value: selected.initiative >= 0 ? `+${selected.initiative}` : selected.initiative },
                     ].map((s) => (

@@ -3,6 +3,7 @@ import prisma from "@/lib/prisma";
 import { getAuthSession } from "@/auth";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import PartyOverviewClient from "./PartyOverviewClient";
 
 function hpClass(hp: number, max: number) {
   if (max === 0) return "hp-low";
@@ -81,52 +82,7 @@ export default async function DashboardPage() {
               </Link>
             </div>
 
-            <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-              {characters.length === 0 ? (
-                <div style={{ padding: 20, textAlign: "center", color: "var(--text-secondary)" }}>
-                  Nessun personaggio trovato. <Link href="/dashboard/characters/new" style={{ color: "var(--primary)" }}>Creane uno</Link>.
-                </div>
-              ) : (
-                characters.map((c) => (
-                  <div key={c.id} style={{ display: "flex", alignItems: "center", gap: 12 }}>
-                    <div
-                      style={{
-                        width: 36,
-                        height: 36,
-                        borderRadius: 8,
-                        background: "var(--bg-elevated)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontSize: "1.1rem",
-                        flexShrink: 0,
-                      }}
-                    >
-                      🧙
-                    </div>
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <div style={{ display: "flex", justifyContent: "space-between" }}>
-                        <span style={{ fontSize: "0.875rem", fontWeight: 500 }}>{c.name}</span>
-                        <span style={{ fontSize: "0.8rem", color: "var(--text-secondary)" }}>
-                          {c.hitPoints}/{c.maxHitPoints} HP
-                        </span>
-                      </div>
-                      <div style={{ display: "flex", gap: 8, marginTop: 2, alignItems: "center" }}>
-                        <span style={{ fontSize: "0.7rem", color: "var(--text-muted)" }}>
-                          {c.race || "Umanoide"} {c.charClass || "Avventuriero"} Lv.{c.level}
-                        </span>
-                      </div>
-                      <div className="hp-bar">
-                        <div
-                          className={`hp-bar-fill ${hpClass(c.hitPoints, c.maxHitPoints)}`}
-                          style={{ width: `${Math.max(0, Math.min(100, (c.hitPoints / (c.maxHitPoints || 1)) * 100))}%` }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                ))
-              )}
-            </div>
+            <PartyOverviewClient initialCharacters={characters} />
           </div>
 
           {/* Dice Roller */}

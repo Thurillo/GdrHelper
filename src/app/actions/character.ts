@@ -54,3 +54,39 @@ export async function createCharacter(formData: FormData) {
   revalidatePath("/dashboard/characters");
   redirect("/dashboard/characters");
 }
+
+export async function deleteCharacter(id: string) {
+  const session = await getAuthSession();
+  if (!session?.user?.id) throw new Error("Non autorizzato");
+
+  await prisma.character.deleteMany({
+    where: {
+      id,
+      userId: session.user.id,
+    },
+  });
+
+  revalidatePath("/dashboard/characters");
+}
+
+export async function updateCharacterHp(id: string, newHp: number) {
+  const session = await getAuthSession();
+  if (!session?.user?.id) throw new Error("Non autorizzato");
+
+  // Verify ownership or DM status - for now, just ownership
+  const char = await prisma.character.findFirst({
+    where: { id, userId: session.user.id },
+  });
+
+  if (!char) throw new Error("Personaggio non trovato");
+
+  // Clamp HP between 0 and maxHitPoints
+  const clampedHp = Math.max(0, Math.min(char.maxHitPoints, newHp));
+
+  await prisma.character.update({
+    where: { id },
+    data: { hitPoints: clampedHp },
+  });
+
+  revalidatePath("/dashboard/characters");
+}

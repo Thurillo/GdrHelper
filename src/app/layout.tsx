@@ -7,6 +7,7 @@ export const metadata: Metadata = {
 };
 
 import NextAuthProvider from '@/components/NextAuthProvider';
+import SocketProvider from '@/components/SocketProvider';
 
 export default function RootLayout({
   children,
@@ -16,7 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <NextAuthProvider>{children}</NextAuthProvider>
+        <NextAuthProvider>
+          <SocketProvider>{children}</SocketProvider>
+        </NextAuthProvider>
       </body>
     </html>
   );
