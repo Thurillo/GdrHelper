@@ -12,8 +12,9 @@ export async function createCharacter(formData: FormData) {
   }
 
   const name = formData.get("name") as string;
-  const race = formData.get("race") as string;
-  const charClass = formData.get("charClass") as string;
+  const raceId = (formData.get("raceId") as string) || undefined;
+  const subraceId = (formData.get("subraceId") as string) || undefined;
+  const charClass = (formData.get("charClass") as string) || undefined;
   const level = parseInt(formData.get("level") as string) || 1;
   const maxHitPoints = parseInt(formData.get("maxHitPoints") as string) || 10;
   const armorClass = parseInt(formData.get("armorClass") as string) || 10;
@@ -29,17 +30,26 @@ export async function createCharacter(formData: FormData) {
     throw new Error("Il nome è obbligatorio");
   }
 
+  // Resolve the race name string from the raceId for display purposes
+  let raceName: string | undefined;
+  if (raceId) {
+    const race = await prisma.race.findUnique({ where: { id: raceId }, select: { name: true } });
+    raceName = race?.name;
+  }
+
   const initiative = Math.floor((dexterity - 10) / 2);
 
-  const character = await prisma.character.create({
+  await prisma.character.create({
     data: {
       userId: session.user.id,
       name,
-      race,
+      race: raceName, // human-readable name for display
+      raceId: raceId || null,
+      subraceId: subraceId || null,
       charClass,
       level,
       maxHitPoints,
-      hitPoints: maxHitPoints, // starts with full HP
+      hitPoints: maxHitPoints,
       armorClass,
       strength,
       dexterity,

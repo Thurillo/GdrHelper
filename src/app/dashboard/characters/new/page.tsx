@@ -1,7 +1,14 @@
 import { createCharacter } from "@/app/actions/character";
 import Link from "next/link";
+import prisma from "@/lib/prisma";
 
-export default function NewCharacterPage() {
+export default async function NewCharacterPage() {
+  // Fetch all races and their subraces from DB
+  const races = await prisma.race.findMany({
+    include: { subraces: { orderBy: { name: "asc" } } },
+    orderBy: { name: "asc" },
+  });
+
   return (
     <div>
       <div className="page-header">
@@ -26,20 +33,57 @@ export default function NewCharacterPage() {
                   <label htmlFor="name" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Nome *</label>
                   <input type="text" id="name" name="name" required className="form-input" placeholder="Es. Aeron il Grigio" />
                 </div>
+
+                {/* RAZZA DROPDOWN */}
                 <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="race" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Razza</label>
-                  <input type="text" id="race" name="race" className="form-input" placeholder="Es. Elfo" />
+                  <label htmlFor="raceId" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Razza</label>
+                  {races.length > 0 ? (
+                    <select id="raceId" name="raceId" className="form-input">
+                      <option value="">— Scegli una razza —</option>
+                      {races.map((r) => (
+                        <option key={r.id} value={r.id}>{r.name}</option>
+                      ))}
+                    </select>
+                  ) : (
+                    <input type="text" id="race" name="race" className="form-input" placeholder="Es. Elfo" />
+                  )}
                 </div>
+
+                {/* SOTTORAZZA DROPDOWN (shown only if races exist) */}
+                {races.length > 0 && (
+                  <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                    <label htmlFor="subraceId" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Sottorazza</label>
+                    <select id="subraceId" name="subraceId" className="form-input">
+                      <option value="">— Scegli una sottorazza —</option>
+                      {races.flatMap((r) =>
+                        r.subraces.map((s) => (
+                          <option key={s.id} value={s.id}>{r.name} — {s.name}</option>
+                        ))
+                      )}
+                    </select>
+                  </div>
+                )}
+
+                {/* CLASSE */}
                 <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
                   <label htmlFor="charClass" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Classe</label>
-                  <input type="text" id="charClass" name="charClass" className="form-input" placeholder="Es. Mago" />
+                  <select id="charClass" name="charClass" className="form-input">
+                    <option value="">— Scegli una classe —</option>
+                    {[
+                      "Barbaro", "Bardo", "Chierico", "Druido",
+                      "Guerriero", "Ladro", "Mago", "Monaco",
+                      "Paladino", "Ranger", "Stregone", "Warlock",
+                    ].map((cls) => (
+                      <option key={cls} value={cls}>{cls}</option>
+                    ))}
+                  </select>
                 </div>
               </div>
             </div>
 
             <hr style={{ borderColor: "var(--border)", opacity: 0.5 }} />
 
-            {/* COMBAT TIMECODE */}
+            {/* COMBAT STATS */}
             <div>
               <h3 style={{ marginBottom: 16 }}>Statistiche di Combattimento</h3>
               <div className="grid-3">
@@ -64,30 +108,19 @@ export default function NewCharacterPage() {
             <div>
               <h3 style={{ marginBottom: 16 }}>Caratteristiche Base</h3>
               <div className="grid-3">
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="strength" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Forza (FOR)</label>
-                  <input type="number" id="strength" name="strength" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="dexterity" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Destrezza (DES)</label>
-                  <input type="number" id="dexterity" name="dexterity" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="constitution" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Costituzione (COS)</label>
-                  <input type="number" id="constitution" name="constitution" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="intelligence" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Intelligenza (INT)</label>
-                  <input type="number" id="intelligence" name="intelligence" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="wisdom" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Saggezza (SAG)</label>
-                  <input type="number" id="wisdom" name="wisdom" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-                  <label htmlFor="charisma" style={{ fontSize: "0.85rem", fontWeight: 500 }}>Carisma (CAR)</label>
-                  <input type="number" id="charisma" name="charisma" min="1" max="30" defaultValue="10" className="form-input" />
-                </div>
+                {[
+                  { id: "strength", label: "Forza (FOR)", name: "strength" },
+                  { id: "dexterity", label: "Destrezza (DES)", name: "dexterity" },
+                  { id: "constitution", label: "Costituzione (COS)", name: "constitution" },
+                  { id: "intelligence", label: "Intelligenza (INT)", name: "intelligence" },
+                  { id: "wisdom", label: "Saggezza (SAG)", name: "wisdom" },
+                  { id: "charisma", label: "Carisma (CAR)", name: "charisma" },
+                ].map((stat) => (
+                  <div key={stat.id} style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+                    <label htmlFor={stat.id} style={{ fontSize: "0.85rem", fontWeight: 500 }}>{stat.label}</label>
+                    <input type="number" id={stat.id} name={stat.name} min="1" max="30" defaultValue="10" className="form-input" />
+                  </div>
+                ))}
               </div>
             </div>
 
