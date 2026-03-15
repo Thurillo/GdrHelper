@@ -1,11 +1,7 @@
 import fs from "fs";
-import pdfPkg from "pdf-parse/lib/pdf-parse.js";
+import _pdf from "pdf-parse";
+const pdf = _pdf.default || _pdf;
 import path from "path";
-import { fileURLToPath } from "url";
-
-const pdf = pdfPkg;
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 async function parsePdf() {
   console.log("Leggendo il PDF...");
@@ -13,23 +9,13 @@ async function parsePdf() {
 
   try {
     const data = await pdf(dataBuffer);
-    console.log(`PDF letto con successo! Numero di pagine: ${data.numpages}`);
     
-    const text = data.text;
+    // Quick workaround to read the text and grab pages 18-43 roughly
+    console.log(`PDF letto con successo. Caratteri totali: ${data.text.length}`);
     
-    // Salviamo uno scorcio di testo su file per analizzarlo e capire come fare il match
-    fs.writeFileSync("tmp-pdf-start.txt", text.substring(0, 100000));
-    console.log("Ho salvato un estratto in tmp-pdf-start.txt");
-
-    // Cerchiamo le occorrenze di razze comuni per trovare le pagine corrette
-    const searchTerms = ["Tratti dei Nani", "Tratti degli Elfi"];
-    searchTerms.forEach(term => {
-      const index = text.indexOf(term);
-      if (index !== -1) {
-        console.log(`Trovato "${term}" all'indice ${index}`);
-      }
-    });
-
+    // Save the whole text roughly to a tmp file so we can inspect it and write a regex for it
+    fs.writeFileSync("tmp-pdf-all.txt", data.text);
+    console.log("Testo completo salvato in tmp-pdf-all.txt");
   } catch (error) {
     console.error("Errore durante il parsing del PDF:", error);
   }

@@ -1,28 +1,36 @@
-import fitz # PyMuPDF
 import os
+import sys
 
-pdf_path = os.path.join(os.getcwd(), "doc", "DeD_5e_manuale-del-giocatore.pdf")
-
-print("Leggendo il PDF con PyMuPDF...")
 try:
-    doc = fitz.open(pdf_path)
-    print(f"PDF letto con successo! Numero di pagine: {len(doc)}")
+    from pypdf import PdfReader
+except ImportError:
+    os.system("pip install pypdf")
+    from pypdf import PdfReader
+
+def extract_pdf():
+    pdf_path = os.path.join("doc", "DeD_5e_manuale-del-giocatore.pdf")
+    if not os.path.exists(pdf_path):
+        print(f"File non trovato: {pdf_path}")
+        return
+
+    print(f"Apertura di {pdf_path}...")
+    reader = PdfReader(pdf_path)
+    print(f"Pagine totali: {len(reader.pages)}")
+    
+    # Extract only from page 18 to 43 (0-indexed so 17 to 42)
+    start_page = max(0, 18 - 1)
+    end_page = min(len(reader.pages), 43)
     
     text = ""
-    # Extract first 50 pages to be safe and find Races (Capitolo 2)
-    for i in range(min(50, len(doc))):
-        text += doc[i].get_text()
+    for i in range(start_page, end_page):
+        page = reader.pages[i]
+        text += f"\n--- PAGINA {i + 1} ---\n"
+        text += page.extract_text()
         
-    with open("tmp-pdf-start.txt", "w", encoding="utf-8") as f:
-        f.write(text[:100000])
+    with open("tmp-races-classes.txt", "w", encoding="utf-8") as f:
+        f.write(text)
         
-    print("Ho salvato un estratto in tmp-pdf-start.txt")
-    
-    search_terms = ["Tratti dei Nani", "Tratti degli Elfi", "Nano", "Elfo"]
-    for term in search_terms:
-        idx = text.find(term)
-        if idx != -1:
-            print(f'Trovato "{term}" all\'indice {idx}')
-            
-except Exception as e:
-    print(f"Errore durante il parsing: {e}")
+    print(f"Estratte {end_page - start_page} pagine. Testo salvato in tmp-races-classes.txt")
+
+if __name__ == "__main__":
+    extract_pdf()

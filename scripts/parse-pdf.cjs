@@ -1,31 +1,24 @@
-const fs = require("fs");
-const pdf = require("pdf-parse");
-const path = require("path");
+import fs from "fs";
+import pdf from "pdf-parse";
+import path from "path";
 
 async function parsePdf() {
   console.log("Leggendo il PDF...");
   const dataBuffer = fs.readFileSync(path.join(process.cwd(), "doc", "DeD_5e_manuale-del-giocatore.pdf"));
 
   try {
-    const pdfLib = typeof pdf === "function" ? pdf : pdf.default || pdf;
-    const data = await pdfLib(dataBuffer);
-    console.log(`PDF letto con successo! Numero di pagine: ${data.numpages}`);
-    
-    const text = data.text;
-    
-    // Salviamo uno scorcio di testo su file per analizzarlo e capire come fare il match
-    fs.writeFileSync("tmp-pdf-start.txt", text.substring(0, 100000));
-    console.log("Ho salvato un estratto in tmp-pdf-start.txt");
-
-    // Cerchiamo le occorrenze di razze comuni per trovare le pagine corrette
-    const searchTerms = ["Tratti dei Nani", "Traghetti", "Costituzione", "Saggezza"];
-    searchTerms.forEach(term => {
-      const index = text.indexOf(term);
-      if (index !== -1) {
-        console.log(`Trovato "${term}" all'indice ${index}`);
-      }
+    const data = await pdf(dataBuffer, {
+      max: 43 - 18 + 1, // Number of pages to read
+      // pdf-parse doesn't natively support "start from page X" easily via options,
+      // it reads all or max pages. But we can read all and split by `\n\n\n` or page breaks.
     });
-
+    
+    // Quick workaround to read the text and grab pages 18-43 roughly
+    console.log(`PDF letto con successo. Caratteri totali: ${data.text.length}`);
+    
+    // Save the whole text roughly to a tmp file so we can inspect it and write a regex for it
+    fs.writeFileSync("tmp-pdf-all.txt", data.text);
+    console.log("Testo completo salvato in tmp-pdf-all.txt");
   } catch (error) {
     console.error("Errore durante il parsing del PDF:", error);
   }
