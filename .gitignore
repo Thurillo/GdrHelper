@@ -1,5 +1,22 @@
 node_modules
 # Keep environment variables out of version control
 .env
+.env.local
 
+# Next.js build output — never commit these
+.next/
+out/
+
+# Prisma generated client (regenerated at build time)
 /src/generated/prisma
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp-races-classes.txt
