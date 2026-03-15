@@ -1,5 +1,5 @@
 import fs from "fs";
-import pdf from "pdf-parse";
+import * as pdf from "pdf-parse";
 import path from "path";
 
 async function parsePdf() {
