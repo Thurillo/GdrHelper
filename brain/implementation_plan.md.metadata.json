@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Plan to resolve the git conflict on the remote server and fix the SSH access issue.\nSteps:\n1. Provide a \"one-liner\" command to the user to fix the remote git state.\n2. Investigate SSH failure by suggesting specific checks on the server.\n3. Once git is pulled, call the seed API.",
+  "updatedAt": "2026-03-15T15:00:09.605912Z",
+  "version": "1"
+}

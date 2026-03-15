@@ -1,0 +1,11 @@
+# Task: Login to VTT application
+
+## Plan
+- [ ] Navigate to http://192.168.1.37:3000/
+- [ ] Enter credentials (email: thurill@gmail.com, password: Password1!)
+- [ ] Click login
+- [ ] Verify dashboard access
+- [ ] Report results
+
+## Findings
+- 

@@ -1,0 +1,10 @@
+# Task: Seed Races via API
+
+## Plan
+- [ ] Navigate to http://192.168.1.37:3000/api/seed-races
+- [ ] Wait for page load and JSON response
+- [ ] Capture the response content
+- [ ] Report success/failure to the planner
+
+## Progress
+- Initializing scratchpad.

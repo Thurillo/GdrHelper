@@ -1,0 +1,128 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+⚔ GdrHelper
+Virtual Tabletop
+Navigazione
+[0] (96,135)<a class='nav-item active' href='/dashboard' />
+	[1] (27,135)<span >🏠 />
+	[2] (72,135)<span >Dashboard />
+[3] (96,169)<a class='nav-item ' href='/dashboard/campaigns' />
+	[4] (26,169)<span >🗺 />
+	[5] (70,169)<span >Campagne />
+[6] (96,203)<a class='nav-item ' href='/dashboard/characters' />
+	[7] (27,203)<span >🧙 />
+	[8] (72,203)<span >Personaggi />
+[9] (96,236)<a class='nav-item ' href='/dashboard/inventory' />
+	[10] (27,236)<span >🎒 />
+	[11] (69,236)<span >Inventario />
+[12] (96,270)<a class='nav-item ' href='/dashboard/compendium' />
+	[13] (27,270)<span >📖 />
+	[14] (73,270)<span >Compendio />
+Dungeon Master
+[15] (96,333)<a class='nav-item ' href='/dashboard/players' />
+	[16] (25,333)<span >🗝 />
+	[17] (63,333)<span >Giocatori />
+[18] (96,367)<a class='nav-item ' href='/dashboard/maps' />
+	[19] (26,367)<span >🗺 />
+	[20] (60,367)<span >Mappe />
+[21] (96,400)<a class='nav-item ' href='/dashboard/loot' />
+	[22] (27,400)<span >💎 />
+	[23] (55,400)<span >Loot />
+[24] (96,971)<button class='nav-item w-full' id='logout-btn' />
+	[25] (25,971)<span >⏻ />
+	[26] (49,971)<span >Esci />
+Dashboard
+Benvenuto, Dungeon Master
+[27] (913,51)<button class='btn btn-primary' id='new-session-btn'>▶ Inizia Sessione />
+🧙
+4
+Personaggi
+🗺
+2
+Campagne
+📖
+128
+Voci Compendio
+🎒
+45
+Oggetti
+Gruppo Attivo
+Stato HP in tempo reale
+[28] (542,206)<a class='btn btn-sm btn-secondary' href='/dashboard/characters'>Gestisci />
+🧙
+Aeron il Grigio
+34
+/
+42
+HP
+Elfo
+Mago
+Lv.
+8
+🧙
+Brandor
+72
+/
+72
+HP
+Umano
+Guerriero
+Lv.
+7
+🧙
+Lira Vantemoore
+45
+/
+52
+HP
+Halfling
+Ladra
+Lv.
+7
+🧙
+Thorn
+10
+/
+58
+HP
+Nano
+Chierico
+Lv.
+8
+🎲 Lancio Dadi
+[29] (703,227)<label class='form-label'>Num. Dadi />
+[30] (703,256)<input class='form-input' id='dice-count' />
+[31] (875,227)<label class='form-label'>Modificatore />
+[32] (875,256)<input class='form-input' id='dice-modifier' />
+[33] (660,301)<button class='dice-btn' id='roll-d4'>d
+4 />
+[34] (746,301)<button class='dice-btn' id='roll-d6'>d
+6 />
+[35] (832,301)<button class='dice-btn' id='roll-d8'>d
+8 />
+[36] (918,301)<button class='dice-btn' id='roll-d10'>d
+10 />
+[37] (660,343)<button class='dice-btn' id='roll-d12'>d
+12 />
+[38] (746,343)<button class='dice-btn' id='roll-d20'>d
+20 />
+[39] (832,343)<button class='dice-btn' id='roll-d100'>d
+100 />
+Seleziona un dado per lanciare
+Azioni Rapide DM
+[40] (319,556)<a class='card' href='/dashboard/loot' />
+	[41] (319,544)<div >💎 />
+	[42] (319,577)<div >Genera Loot />
+[43] (504,556)<a class='card' href='/dashboard/compendium' />
+	[44] (504,544)<div >📖 />
+	[45] (504,577)<div >Cerca Compendio />
+[46] (688,556)<a class='card' href='/dashboard/characters/new' />
+	[47] (688,544)<div >🧙 />
+	[48] (688,577)<div >Nuovo Personaggio />
+[49] (872,556)<a class='card' href='/dashboard/maps' />
+	[50] (872,544)<div >🗺 />
+	[51] (872,577)<div >Carica Mappa />
+
+</current_dom>

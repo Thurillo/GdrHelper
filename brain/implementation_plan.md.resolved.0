@@ -1,0 +1,53 @@
+# VTT Scale Up: Implementation Plan
+
+The initial MVP phase laid the foundation with the database schema (NextAuth, Campaigns, Characters, Compendium) and the responsive UI for the Dashboard, Campaigns, Characters, Inventory, and Compendium pages. 
+
+The goal of this phase is to turn the static UI into a fully functional application connected to the database, and introduce real-time multiplayer features.
+
+## Proposed Changes
+
+We will split the remaining work into the following logical components:
+
+### 1. Data Binding & Server Actions
+Currently, the UI displays static or placeholder data. We need to implement Server Actions to read and write to the PostgreSQL database via Prisma for all existing pages.
+
+- Implement CRUD Server Actions for:
+  - **Campaigns**: Fetch user campaigns, create new campaign, fetch campaign details.
+  - **Characters**: Fetch characters, create new character, update character stats (HP, attributes).
+  - **Inventory**: Fetch items, add item, update quantities/equipped status.
+  - **Compendium**: Search and paginate through `ManualEntry` and `Spell` models.
+
+### 2. Maps & Loot Modules
+The `/dashboard/maps` and `/dashboard/loot` pages are currently placeholders.
+
+- **Maps**:
+  - Implement a basic grid-based map viewer utilizing the `Map` and `Token` models.
+  - Add drag-and-drop functionality for tokens.
+  - Add DM tools for changing maps and managing tokens.
+- **Loot**:
+  - Implement a DM interface to generate and assign loot to the party's shared inventory or specific characters.
+
+### 3. PDF Parsing Integration
+Automate the population of the Compendium database.
+
+- Review and integrate the existing [scripts/parse-pdf.ts](file:///c:/Users/Thurill/Antigravity1/scripts/parse-pdf.ts) or [scripts/parse_pdf.py](file:///c:/Users/Thurill/Antigravity1/scripts/parse_pdf.py) into a usable admin tool or Next.js API route to extract data from TTRPG PDFs and insert it into the `Manual` and `ManualEntry` tables.
+
+### 4. Real-time Synchronization (WebSockets)
+A VTT requires real-time updates across multiple clients (DM and Players).
+
+- Set up a WebSocket server (e.g., using `socket.io` or `ws`, integrating with the Next.js custom server or as a separate microservice).
+- Implement real-time events for:
+  - **Dice Roller**: Broadcast dice rolls to all campaign participants.
+  - **Map Tokens**: Broadcast token movement and HP changes.
+  - **Character HP/Stats**: Broadcast updates when a player or DM alters character health.
+  - **Chat (Optional)**: If time permits, add a basic session chat.
+
+## Verification Plan
+
+### Automated Tests
+- Run Next.js build (`npm run build`) to ensure no TypeScript or routing errors were introduced.
+- Use the `browser_subagent` to verify navigation and basic CRUD operations on the newly data-bound pages on the staging server (`http://192.168.1.37:3000`).
+
+### Manual Verification
+- The USER (DM) should log in, create a campaign, and add a character to verify database persistence.
+- A secondary browser window (or incognito) should be opened with a Player account to verify that WebSocket events (dice rolls, token movements) are correctly synced in real-time between the two clients on the LAN server.
